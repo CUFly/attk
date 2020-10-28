@@ -1,0 +1,507 @@
+Id,name,sub_tech,tactic,url
+T1001,Data Obfuscation,"T1001.001,T1001.002,T1001.003",Command And Control,https://attack.mitre.org/techniques/TT1001/
+T1078,Valid Accounts,"T1078.001,T1078.002,T1078.003,T1078.004,CAPEC-560","Defense Evasion,                                                    Persistence,                                                    Privilege Escalation,                                                    Initial Access",https://attack.mitre.org/techniques/TT1078/
+T1072,Software Deployment Tools,,"Execution,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1072/
+T1070,Indicator Removal on Host,"T1070.001,T1070.002,T1070.003,T1070.004,T1070.005,T1070.006,CAPEC-93",Defense Evasion,https://attack.mitre.org/techniques/TT1070/
+T1074,Data Staged,"T1074.001,T1074.002",Collection,https://attack.mitre.org/techniques/TT1074/
+T1068,Exploitation for Privilege Escalation,,Privilege Escalation,https://attack.mitre.org/techniques/TT1068/
+T1069,Permission Groups Discovery,"T1069.001,T1069.002,T1069.003,CAPEC-576",Discovery,https://attack.mitre.org/techniques/TT1069/
+T1021.001,Remote Services:?Remote Desktop Protocol,"T1021,CAPEC-555",Lateral Movement,https://attack.mitre.org/techniques/TT1021.001/
+T1071,Application Layer Protocol,"T1071.001,T1071.002,T1071.003,T1071.004",Command And Control,https://attack.mitre.org/techniques/TT1071/
+T1021.002,Remote Services:?SMB/Windows Admin Shares,"T1021,CAPEC-561",Lateral Movement,https://attack.mitre.org/techniques/TT1021.002/
+T1542.003,Pre-OS Boot:?Bootkit,T1542,"Persistence,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1542.003/
+T1518.001,Software Discovery:?Security Software Discovery,T1518,Discovery,https://attack.mitre.org/techniques/TT1518.001/
+T1550.002,Use Alternate Authentication Material:?Pass the Hash,"T1550,CAPEC-644","Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550.002/
+T1027.005,Obfuscated Files or Information:?Indicator Removal from Tools,T1027,Defense Evasion,https://attack.mitre.org/techniques/TT1027.005/
+T1574.002,Hijack Execution Flow:?DLL Side-Loading,"T1574,CAPEC-capec","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.002/
+T1579,Keychain,AUT-11,Credential Access,https://attack.mitre.org/techniques/TT1579/
+T1577,Compromise Application Executable,,Persistence,https://attack.mitre.org/techniques/TT1577/
+T1575,Native Code,,"Defense Evasion,                                                    Execution",https://attack.mitre.org/techniques/TT1575/
+T1578,Modify Cloud Compute Infrastructure,"T1578.001,T1578.002,T1578.003,T1578.004",Defense Evasion,https://attack.mitre.org/techniques/TT1578/
+T1573,Encrypted Channel,"T1573.001,T1573.002",Command And Control,https://attack.mitre.org/techniques/TT1573/
+T1576,Uninstall Malicious Application,APP-43,Defense Evasion,https://attack.mitre.org/techniques/TT1576/
+T1572,Protocol Tunneling,,Command And Control,https://attack.mitre.org/techniques/TT1572/
+T1574,Hijack Execution Flow,"T1574.001,T1574.002,T1574.004,T1574.005,T1574.006,T1574.007,T1574.008,T1574.009,T1574.010,T1574.011,T1574.012","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574/
+T1570,Lateral Tool Transfer,,Lateral Movement,https://attack.mitre.org/techniques/TT1570/
+T1569,System Services,"T1569.001,T1569.002",Execution,https://attack.mitre.org/techniques/TT1569/
+T1571,Non-Standard Port,,Command And Control,https://attack.mitre.org/techniques/TT1571/
+T1565,Data Manipulation,"T1565.001,T1565.002,T1565.003",Impact,https://attack.mitre.org/techniques/TT1565/
+T1568,Dynamic Resolution,"T1568.001,T1568.002,T1568.003",Command And Control,https://attack.mitre.org/techniques/TT1568/
+T1564,Hide Artifacts,"T1564.001,T1564.002,T1564.003,T1564.004,T1564.005,T1564.006",Defense Evasion,https://attack.mitre.org/techniques/TT1564/
+T1566,Phishing,"T1566.001,T1566.002,T1566.003,CAPEC-98",Initial Access,https://attack.mitre.org/techniques/TT1566/
+T1567,Exfiltration Over Web Service,"T1567.001,T1567.002",Exfiltration,https://attack.mitre.org/techniques/TT1567/
+T1563,Remote Service Session Hijacking,"T1563.001,T1563.002",Lateral Movement,https://attack.mitre.org/techniques/TT1563/
+T1562,Impair Defenses,"T1562.001,T1562.002,T1562.003,T1562.004,T1562.006,T1562.007",Defense Evasion,https://attack.mitre.org/techniques/TT1562/
+T1558,Steal or Forge Kerberos Tickets,"T1558.001,T1558.002,T1558.003",Credential Access,https://attack.mitre.org/techniques/TT1558/
+T1561,Disk Wipe,"T1561.001,T1561.002",Impact,https://attack.mitre.org/techniques/TT1561/
+T1559,Inter-Process Communication,"T1559.001,T1559.002",Execution,https://attack.mitre.org/techniques/TT1559/
+T1557,Man-in-the-Middle,"T1557.001,CAPEC-94","Credential Access,                                                    Collection",https://attack.mitre.org/techniques/TT1557/
+T1560,Archive Collected Data,"T1560.001,T1560.002,T1560.003",Collection,https://attack.mitre.org/techniques/TT1560/
+T1556,Modify Authentication Process,"T1556.001,T1556.002,T1556.003","Credential Access,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1556/
+T1554,Compromise Client Software Binary,,Persistence,https://attack.mitre.org/techniques/TT1554/
+T1553,Subvert Trust Controls,"T1553.001,T1553.002,T1553.003,T1553.004",Defense Evasion,https://attack.mitre.org/techniques/TT1553/
+T1555,Credentials from Password Stores,"T1555.001,T1555.002,T1555.003",Credential Access,https://attack.mitre.org/techniques/TT1555/
+T1552,Unsecured Credentials,"T1552.001,T1552.002,T1552.003,T1552.004,T1552.005,T1552.006",Credential Access,https://attack.mitre.org/techniques/TT1552/
+T1550,Use Alternate Authentication Material,"T1550.001,T1550.002,T1550.003,T1550.004","Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550/
+T1547,Boot or Logon Autostart Execution,"T1547.001,T1547.002,T1547.003,T1547.004,T1547.005,T1547.006,T1547.007,T1547.008,T1547.009,T1547.010,T1547.011","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547/
+T1546,Event Triggered Execution,"T1546.001,T1546.002,T1546.003,T1546.004,T1546.005,T1546.006,T1546.007,T1546.008,T1546.009,T1546.010,T1546.011,T1546.012,T1546.013,T1546.014,T1546.015","Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546/
+T1543,Create or Modify System Process,"T1543.001,T1543.002,T1543.003,T1543.004","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543/
+T1544,Remote File Copy,,Command And Control,https://attack.mitre.org/techniques/TT1544/
+T1542,Pre-OS Boot,"T1542.001,T1542.002,T1542.003","Defense Evasion,                                                    Persistence",https://attack.mitre.org/techniques/TT1542/
+T1548,Abuse Elevation Control Mechanism,"T1548.001,T1548.002,T1548.003,T1548.004","Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548/
+T1541,Foreground Persistence,APP-19,"Collection,                                                    Persistence",https://attack.mitre.org/techniques/TT1541/
+T1540,Code Injection,,"Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1540/
+T1539,Steal Web Session Cookie,,Credential Access,https://attack.mitre.org/techniques/TT1539/
+T1538,Cloud Service Dashboard,,Discovery,https://attack.mitre.org/techniques/TT1538/
+T1537,Transfer Data to Cloud Account,,Exfiltration,https://attack.mitre.org/techniques/TT1537/
+T1535,Unused/Unsupported Cloud Regions,,Defense Evasion,https://attack.mitre.org/techniques/TT1535/
+T1533,Data from Local System,,Collection,https://attack.mitre.org/techniques/TT1533/
+T1534,Internal Spearphishing,,Lateral Movement,https://attack.mitre.org/techniques/TT1534/
+T1531,Account Access Removal,,Impact,https://attack.mitre.org/techniques/TT1531/
+T1529,System Shutdown/Reboot,,Impact,https://attack.mitre.org/techniques/TT1529/
+T1528,Steal Application Access Token,,Credential Access,https://attack.mitre.org/techniques/TT1528/
+T1526,Cloud Service Discovery,,Discovery,https://attack.mitre.org/techniques/TT1526/
+T1530,Data from Cloud Storage Object,,Collection,https://attack.mitre.org/techniques/TT1530/
+T1532,Data Encrypted,,Exfiltration,https://attack.mitre.org/techniques/TT1532/
+T1521,Standard Cryptographic Protocol,,Command And Control,https://attack.mitre.org/techniques/TT1521/
+T1525,Implant Container Image,,Persistence,https://attack.mitre.org/techniques/TT1525/
+T1523,Evade Analysis Environment,,"Defense Evasion,                                                    Discovery",https://attack.mitre.org/techniques/TT1523/
+T1520,Domain Generation Algorithms,,Command And Control,https://attack.mitre.org/techniques/TT1520/
+T1518,Software Discovery,T1518.001,Discovery,https://attack.mitre.org/techniques/TT1518/
+T1517,Access Notifications,,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1517/
+T1516,Input Injection,,"Defense Evasion,                                                    Impact",https://attack.mitre.org/techniques/TT1516/
+T1578.004,Modify Cloud Compute Infrastructure:?Revert Cloud Instance,T1578,Defense Evasion,https://attack.mitre.org/techniques/TT1578.004/
+T1512,Capture Camera,APP-19,Collection,https://attack.mitre.org/techniques/TT1512/
+T1513,Screen Capture,APP-40,Collection,https://attack.mitre.org/techniques/TT1513/
+T1510,Clipboard Modification,,Impact,https://attack.mitre.org/techniques/TT1510/
+T1550.001,Use Alternate Authentication Material:?Application Access Token,T1550,"Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550.001/
+T1509,Uncommonly Used Port,,Command And Control,https://attack.mitre.org/techniques/TT1509/
+T1508,Suppress Application Icon,,Defense Evasion,https://attack.mitre.org/techniques/TT1508/
+T1507,Network Information Discovery,,Collection,https://attack.mitre.org/techniques/TT1507/
+T1505,Server Software Component,"T1505.001,T1505.002,T1505.003",Persistence,https://attack.mitre.org/techniques/TT1505/
+T1552.005,Unsecured Credentials:?Cloud Instance Metadata API,T1552,Credential Access,https://attack.mitre.org/techniques/TT1552.005/
+T1546.014,Event Triggered Execution:?Emond,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.014/
+T1548.004,Abuse Elevation Control Mechanism:?Elevated Execution with Prompt,T1548,"Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548.004/
+T1498,Network Denial of Service,"T1498.001,T1498.002",Impact,https://attack.mitre.org/techniques/TT1498/
+T1499,Endpoint Denial of Service,"T1499.001,T1499.002,T1499.003,T1499.004,CAPEC-227,,CAPEC-131,,CAPEC-130,,CAPEC-125",Impact,https://attack.mitre.org/techniques/TT1499/
+T1495,Firmware Corruption,,Impact,https://attack.mitre.org/techniques/TT1495/
+T1497,Virtualization/Sandbox Evasion,"T1497.001,T1497.002,T1497.003","Defense Evasion,                                                    Discovery",https://attack.mitre.org/techniques/TT1497/
+T1496,Resource Hijacking,,Impact,https://attack.mitre.org/techniques/TT1496/
+T1550.004,Use Alternate Authentication Material:?Web Session Cookie,T1550,"Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550.004/
+T1546.013,Event Triggered Execution:?PowerShell Profile,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.013/
+T1490,Inhibit System Recovery,,Impact,https://attack.mitre.org/techniques/TT1490/
+T1489,Service Stop,,Impact,https://attack.mitre.org/techniques/TT1489/
+T1491,Defacement,"T1491.001,T1491.002",Impact,https://attack.mitre.org/techniques/TT1491/
+T1486,Data Encrypted for Impact,,Impact,https://attack.mitre.org/techniques/TT1486/
+T1485,Data Destruction,,Impact,https://attack.mitre.org/techniques/TT1485/
+T1027.004,Obfuscated Files or Information:?Compile After Delivery,T1027,Defense Evasion,https://attack.mitre.org/techniques/TT1027.004/
+T1134.004,Access Token Manipulation:?Parent PID Spoofing,T1134,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1134.004/
+T1484,Group Policy Modification,,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1484/
+T1555.003,Credentials from Password Stores:?Credentials from Web Browsers,T1555,Credential Access,https://attack.mitre.org/techniques/TT1555.003/
+T1565.003,Data Manipulation:?Runtime Data Manipulation,T1565,Impact,https://attack.mitre.org/techniques/TT1565.003/
+T1543.002,Create or Modify System Process:?Systemd Service,T1543,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543.002/
+T1565.002,Data Manipulation:?Transmitted Data Manipulation,T1565,Impact,https://attack.mitre.org/techniques/TT1565.002/
+T1480,Execution Guardrails,T1480.001,Defense Evasion,https://attack.mitre.org/techniques/TT1480/
+T1478,Install Insecure or Malicious Configuration,STA-7,"Defense Evasion,                                                    Initial Access",https://attack.mitre.org/techniques/TT1478/
+T1482,Domain Trust Discovery,,Discovery,https://attack.mitre.org/techniques/TT1482/
+T1477,Exploit via Radio Interfaces,,Initial Access,https://attack.mitre.org/techniques/TT1477/
+T1565.001,Data Manipulation:?Stored Data Manipulation,T1565,Impact,https://attack.mitre.org/techniques/TT1565.001/
+T1481,Web Service,,Command And Control,https://attack.mitre.org/techniques/TT1481/
+T1476,Deliver Malicious App via Other Means,"AUT-9,,ECO-13,,ECO-21",Initial Access,https://attack.mitre.org/techniques/TT1476/
+T1561.001,Disk Wipe:?Disk Content Wipe,T1561,Impact,https://attack.mitre.org/techniques/TT1561.001/
+T1561.002,Disk Wipe:?Disk Structure Wipe,T1561,Impact,https://attack.mitre.org/techniques/TT1561.002/
+T1471,Data Encrypted for Impact,APP-28,Impact,https://attack.mitre.org/techniques/TT1471/
+T1470,Obtain Device Cloud Backups,"ECO-0,,ECO-1",Remote Service Effects,https://attack.mitre.org/techniques/TT1470/
+T1469,Remotely Wipe Data Without Authorization,"ECO-5,,EMM-7",Remote Service Effects,https://attack.mitre.org/techniques/TT1469/
+T1474,Supply Chain Compromise,APP-6,Initial Access,https://attack.mitre.org/techniques/TT1474/
+T1475,Deliver Malicious App via Authorized App Store,"ECO-4,,ECO-16,,ECO-17,,APP-20,,APP-21,,ECO-22",Initial Access,https://attack.mitre.org/techniques/TT1475/
+T1472,Generate Fraudulent Advertising Revenue,,Impact,https://attack.mitre.org/techniques/TT1472/
+T1468,Remotely Track Device Without Authorization,"ECO-5,,EMM-7",Remote Service Effects,https://attack.mitre.org/techniques/TT1468/
+T1467,Rogue Cellular Base Station,CEL-7,Network Effects,https://attack.mitre.org/techniques/TT1467/
+T1465,Rogue Wi-Fi Access Points,LPN-0,Network Effects,https://attack.mitre.org/techniques/TT1465/
+T1464,Jamming or Denial of Service,"CEL-7,,CEL-8,,LPN-5,,GPS-0",Network Effects,https://attack.mitre.org/techniques/TT1464/
+T1463,Manipulate Device Communication,APP-1,Network Effects,https://attack.mitre.org/techniques/TT1463/
+T1466,Downgrade to Insecure Protocols,CEL-3,Network Effects,https://attack.mitre.org/techniques/TT1466/
+T1568.002,Dynamic Resolution:?Domain Generation Algorithms,T1568,Command And Control,https://attack.mitre.org/techniques/TT1568.002/
+T1461,Lockscreen Bypass,,Initial Access,https://attack.mitre.org/techniques/TT1461/
+T1456,Drive-by Compromise,CEL-22,Initial Access,https://attack.mitre.org/techniques/TT1456/
+T1458,Exploit via Charging Station or PC,PHY-1,Initial Access,https://attack.mitre.org/techniques/TT1458/
+T1451,SIM Card Swap,STA-22,Network Effects,https://attack.mitre.org/techniques/TT1451/
+T1450,Exploit SS7 to Track Device Location,CEL-38,Network Effects,https://attack.mitre.org/techniques/TT1450/
+T1452,Manipulate App Store Rankings or Ratings,,Impact,https://attack.mitre.org/techniques/TT1452/
+T1449,Exploit SS7 to Redirect Phone Calls/SMS,CEL-37,Network Effects,https://attack.mitre.org/techniques/TT1449/
+T1448,Carrier Billing Fraud,,Impact,https://attack.mitre.org/techniques/TT1448/
+T1447,Delete Device Data,,Impact,https://attack.mitre.org/techniques/TT1447/
+T1446,Device Lockout,APP-28,"Impact,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1446/
+T1444,Masquerade as Legitimate Application,"APP-31,,APP-14","Initial Access,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1444/
+T1439,Eavesdrop on Insecure Network Communication,"APP-0,,APP-1",Network Effects,https://attack.mitre.org/techniques/TT1439/
+T1438,Alternate Network Mediums,APP-30,"Command And Control,                                                    Exfiltration",https://attack.mitre.org/techniques/TT1438/
+T1437,Standard Application Layer Protocol,APP-29,"Command And Control,                                                    Exfiltration",https://attack.mitre.org/techniques/TT1437/
+T1435,Access Calendar Entries,APP-13,Collection,https://attack.mitre.org/techniques/TT1435/
+T1436,Commonly Used Port,,"Command And Control,                                                    Exfiltration",https://attack.mitre.org/techniques/TT1436/
+T1433,Access Call Log,APP-13,Collection,https://attack.mitre.org/techniques/TT1433/
+T1430,Location Tracking,APP-24,"Collection,                                                    Discovery",https://attack.mitre.org/techniques/TT1430/
+T1432,Access Contact List,APP-13,Collection,https://attack.mitre.org/techniques/TT1432/
+T1428,Exploit Enterprise Resources,APP-32,Lateral Movement,https://attack.mitre.org/techniques/TT1428/
+T1427,Attack PC via USB Connection,PHY-2,Lateral Movement,https://attack.mitre.org/techniques/TT1427/
+T1423,Network Service Scanning,,Discovery,https://attack.mitre.org/techniques/TT1423/
+T1422,System Network Configuration Discovery,,Discovery,https://attack.mitre.org/techniques/TT1422/
+T1424,Process Discovery,,Discovery,https://attack.mitre.org/techniques/TT1424/
+T1429,Capture Audio,APP-19,Collection,https://attack.mitre.org/techniques/TT1429/
+T1426,System Information Discovery,,Discovery,https://attack.mitre.org/techniques/TT1426/
+T1421,System Network Connections Discovery,,Discovery,https://attack.mitre.org/techniques/TT1421/
+T1418,Application Discovery,,"Defense Evasion,                                                    Discovery",https://attack.mitre.org/techniques/TT1418/
+T1420,File and Directory Discovery,,Discovery,https://attack.mitre.org/techniques/TT1420/
+T1416,Android Intent Hijacking,,Credential Access,https://attack.mitre.org/techniques/TT1416/
+T1417,Input Capture,,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1417/
+T1415,URL Scheme Hijacking,AUT-10,Credential Access,https://attack.mitre.org/techniques/TT1415/
+T1414,Capture Clipboard Data,APP-35,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1414/
+T1412,Capture SMS Messages,,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1412/
+T1411,Input Prompt,APP-31,Credential Access,https://attack.mitre.org/techniques/TT1411/
+T1413,Access Sensitive Data in Device Logs,"APP-3,,APP-13","Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1413/
+T1410,Network Traffic Capture or Redirection,,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1410/
+T1409,Access Stored Application Data,AUT-0,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1409/
+T1408,Disguise Root/Jailbreak Indicators,EMM-5,Defense Evasion,https://attack.mitre.org/techniques/TT1408/
+T1407,Download New Code at Runtime,APP-20,Defense Evasion,https://attack.mitre.org/techniques/TT1407/
+T1406,Obfuscated Files or Information,APP-21,Defense Evasion,https://attack.mitre.org/techniques/TT1406/
+T1401,Abuse Device Administrator Access to Prevent Removal,APP-22,Persistence,https://attack.mitre.org/techniques/TT1401/
+T1404,Exploit OS Vulnerability,APP-26,Privilege Escalation,https://attack.mitre.org/techniques/TT1404/
+T1402,Broadcast Receivers,,"Persistence,                                                    Execution",https://attack.mitre.org/techniques/TT1402/
+T1405,Exploit TEE Vulnerability,APP-27,"Credential Access,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1405/
+T1400,Modify System Partition,APP-27,"Defense Evasion,                                                    Persistence,                                                    Impact",https://attack.mitre.org/techniques/TT1400/
+T1403,Modify Cached Executable Code,,Persistence,https://attack.mitre.org/techniques/TT1403/
+T1397,Spearphishing for Information,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1397/
+T1398,Modify OS Kernel or Boot Partition,"APP-26,,APP-27","Defense Evasion,                                                    Persistence",https://attack.mitre.org/techniques/TT1398/
+T1399,Modify Trusted Execution Environment,APP-27,"Defense Evasion,                                                    Persistence",https://attack.mitre.org/techniques/TT1399/
+T1396,Obtain booter/stressor subscription,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1396/
+T1394,Distribute malicious software development tools,,Stage Capabilities,https://attack.mitre.org/techniques/TT1394/
+T1393,Test ability to evade automated mobile application security analysis performed by app stores,,Test Capabilities,https://attack.mitre.org/techniques/TT1393/
+T1389,Identify vulnerabilities in third-party software libraries,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1389/
+T1391,Choose pre-compromised mobile app developer account credentials or signing keys,,Persona Development,https://attack.mitre.org/techniques/TT1391/
+T1390,OS-vendor provided communication channels,,Adversary Opsec,https://attack.mitre.org/techniques/TT1390/
+T1392,Obtain Apple iOS enterprise distribution key pair and certificate,,Persona Development,https://attack.mitre.org/techniques/TT1392/
+T1379,Disseminate removable media,,Stage Capabilities,https://attack.mitre.org/techniques/TT1379/
+T1364,Friend/Follow/Connect to targets of interest,,Stage Capabilities,https://attack.mitre.org/techniques/TT1364/
+T1365,Hardware or software supply chain implant,,Stage Capabilities,https://attack.mitre.org/techniques/TT1365/
+T1363,Port redirector,,Stage Capabilities,https://attack.mitre.org/techniques/TT1363/
+T1361,Test signature detection for file upload/email filters,,Test Capabilities,https://attack.mitre.org/techniques/TT1361/
+T1362,"Upload, install, and configure software/tools",,Stage Capabilities,https://attack.mitre.org/techniques/TT1362/
+T1358,Review logs and residual traces,,Test Capabilities,https://attack.mitre.org/techniques/TT1358/
+T1359,Test malware to evade detection,,Test Capabilities,https://attack.mitre.org/techniques/TT1359/
+T1360,Test physical access,,Test Capabilities,https://attack.mitre.org/techniques/TT1360/
+T1357,Test malware in various execution environments,,Test Capabilities,https://attack.mitre.org/techniques/TT1357/
+T1354,Compromise 3rd party or closed-source vulnerability/exploit information,,Build Capabilities,https://attack.mitre.org/techniques/TT1354/
+T1353,Post compromise tool development,,Build Capabilities,https://attack.mitre.org/techniques/TT1353/
+T1352,C2 protocol development,,Build Capabilities,https://attack.mitre.org/techniques/TT1352/
+T1356,Test callback functionality,,Test Capabilities,https://attack.mitre.org/techniques/TT1356/
+T1355,Create infected removable media,,Build Capabilities,https://attack.mitre.org/techniques/TT1355/
+T1351,Remote access tool development,,Build Capabilities,https://attack.mitre.org/techniques/TT1351/
+T1346,Obtain/re-use payloads,,Build Capabilities,https://attack.mitre.org/techniques/TT1346/
+T1347,Build and configure delivery systems,,Build Capabilities,https://attack.mitre.org/techniques/TT1347/
+T1348,Identify resources required to build capabilities,,Build Capabilities,https://attack.mitre.org/techniques/TT1348/
+T1349,Build or acquire exploits,,Build Capabilities,https://attack.mitre.org/techniques/TT1349/
+T1350,Discover new exploits and monitor exploit-provider forums,,Build Capabilities,https://attack.mitre.org/techniques/TT1350/
+T1343,Choose pre-compromised persona and affiliated accounts,,Persona Development,https://attack.mitre.org/techniques/TT1343/
+T1345,Create custom payloads,,Build Capabilities,https://attack.mitre.org/techniques/TT1345/
+T1342,Develop social network persona digital footprint,,Persona Development,https://attack.mitre.org/techniques/TT1342/
+T1344,Friend/Follow/Connect to targets of interest,,Persona Development,https://attack.mitre.org/techniques/TT1344/
+T1341,Build social network persona,,Persona Development,https://attack.mitre.org/techniques/TT1341/
+T1340,Shadow DNS,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1340/
+T1339,Create backup infrastructure,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1339/
+T1337,SSL certificate acquisition for domain,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1337/
+T1338,SSL certificate acquisition for trust breaking,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1338/
+T1335,Procure required equipment and software,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1335/
+T1331,Obfuscate infrastructure,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1331/
+T1333,Dynamic DNS,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1333/
+T1332,Acquire or compromise 3rd party signing certificates,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1332/
+T1330,Acquire and/or use 3rd party software services,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1330/
+T1334,Compromise 3rd party infrastructure to support delivery,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1334/
+T1336,"Install and configure hardware, network, and systems",,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1336/
+T1328,Buy domain name,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1328/
+T1329,Acquire and/or use 3rd party infrastructure services,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1329/
+T1321,"Common, high volume protocols and software",,Adversary Opsec,https://attack.mitre.org/techniques/TT1321/
+T1326,Domain registration hijacking,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1326/
+T1327,Use multiple DNS infrastructures,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1327/
+T1322,Misattributable credentials,,Adversary Opsec,https://attack.mitre.org/techniques/TT1322/
+T1319,Obfuscate or encrypt code,,Adversary Opsec,https://attack.mitre.org/techniques/TT1319/
+T1320,Data Hiding,,Adversary Opsec,https://attack.mitre.org/techniques/TT1320/
+T1318,Obfuscate operational infrastructure,,Adversary Opsec,https://attack.mitre.org/techniques/TT1318/
+T1316,Non-traditional or less attributable payment options,,Adversary Opsec,https://attack.mitre.org/techniques/TT1316/
+T1317,Secure and protect infrastructure,,Adversary Opsec,https://attack.mitre.org/techniques/TT1317/
+T1313,Obfuscation or cryptography,,Adversary Opsec,https://attack.mitre.org/techniques/TT1313/
+T1315,Network-based hiding techniques,,Adversary Opsec,https://attack.mitre.org/techniques/TT1315/
+T1310,Acquire or compromise 3rd party signing certificates,,Adversary Opsec,https://attack.mitre.org/techniques/TT1310/
+T1312,Compromise 3rd party infrastructure to support delivery,,Adversary Opsec,https://attack.mitre.org/techniques/TT1312/
+T1311,Dynamic DNS,,Adversary Opsec,https://attack.mitre.org/techniques/TT1311/
+T1314,Host-based hiding techniques,,Adversary Opsec,https://attack.mitre.org/techniques/TT1314/
+T1307,Acquire and/or use 3rd party infrastructure services,,Adversary Opsec,https://attack.mitre.org/techniques/TT1307/
+T1306,Anonymity services,,Adversary Opsec,https://attack.mitre.org/techniques/TT1306/
+T1308,Acquire and/or use 3rd party software services,,Adversary Opsec,https://attack.mitre.org/techniques/TT1308/
+T1305,Private whois services,,Adversary Opsec,https://attack.mitre.org/techniques/TT1305/
+T1309,Obfuscate infrastructure,,Adversary Opsec,https://attack.mitre.org/techniques/TT1309/
+T1301,Analyze business processes,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1301/
+T1304,Proxy/protocol relays,,Adversary Opsec,https://attack.mitre.org/techniques/TT1304/
+T1300,Analyze organizational skillsets and deficiencies,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1300/
+T1302,Assess security posture of physical locations,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1302/
+T1303,Analyze presence of outsourced capabilities,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1303/
+T1299,Assess opportunities created by business deals,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1299/
+T1298,Assess vulnerability of 3rd party vendors,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1298/
+T1296,Assess targeting options,,People Weakness Identification,https://attack.mitre.org/techniques/TT1296/
+T1297,Analyze organizational skillsets and deficiencies,,People Weakness Identification,https://attack.mitre.org/techniques/TT1297/
+T1294,Analyze hardware/software security defensive capabilities,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1294/
+T1295,"Analyze social and business relationships, interests, and affiliations",,People Weakness Identification,https://attack.mitre.org/techniques/TT1295/
+T1293,Analyze application security posture,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1293/
+T1292,Test signature detection,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1292/
+T1289,Analyze organizational skillsets and deficiencies,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1289/
+T1288,Analyze architecture and configuration posture,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1288/
+T1287,Analyze data collected,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1287/
+T1291,Research relevant vulnerabilities/CVEs,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1291/
+T1290,Research visibility gap of security vendors,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1290/
+T1286,Dumpster dive,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1286/
+T1285,Determine centralization of IT management,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1285/
+T1284,Determine 3rd party infrastructure services,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1284/
+T1283,Identify business relationships,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1283/
+T1281,Obtain templates/branding materials,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1281/
+T1282,Determine physical locations,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1282/
+T1279,Conduct social engineering,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1279/
+T1278,Identify job postings and needs/gaps,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1278/
+T1280,Identify business processes/tempo,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1280/
+T1277,Acquire OSINT data sets and information,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1277/
+T1276,Identify supply chains,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1276/
+T1275,Aggregate individual's digital footprint,,People Information Gathering,https://attack.mitre.org/techniques/TT1275/
+T1274,Identify sensitive personnel information,,People Information Gathering,https://attack.mitre.org/techniques/TT1274/
+T1273,Mine social media,,People Information Gathering,https://attack.mitre.org/techniques/TT1273/
+T1272,Identify business relationships,,People Information Gathering,https://attack.mitre.org/techniques/TT1272/
+T1271,Identify personnel with an authority/privilege,,People Information Gathering,https://attack.mitre.org/techniques/TT1271/
+T1270,Identify groups/roles,,People Information Gathering,https://attack.mitre.org/techniques/TT1270/
+T1267,Identify job postings and needs/gaps,,People Information Gathering,https://attack.mitre.org/techniques/TT1267/
+T1269,Identify people of interest,,People Information Gathering,https://attack.mitre.org/techniques/TT1269/
+T1266,Acquire OSINT data sets and information,,People Information Gathering,https://attack.mitre.org/techniques/TT1266/
+T1268,Conduct social engineering,,People Information Gathering,https://attack.mitre.org/techniques/TT1268/
+T1265,Identify supply chains,,People Information Gathering,https://attack.mitre.org/techniques/TT1265/
+T1264,Identify technology usage patterns,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1264/
+T1263,Identify security defensive capabilities,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1263/
+T1262,Enumerate client configurations,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1262/
+T1260,Determine 3rd party infrastructure services,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1260/
+T1257,Mine technical blogs/forums,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1257/
+T1261,"Enumerate externally facing software applications technologies, languages, and dependencies",,Technical Information Gathering,https://attack.mitre.org/techniques/TT1261/
+T1259,Determine external network trust dependencies,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1259/
+T1258,Determine firmware version,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1258/
+T1255,Discover target logon/email address format,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1255/
+T1254,Conduct active scanning,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1254/
+T1252,Map network topology,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1252/
+T1251,Obtain domain/IP registration information,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1251/
+T1253,Conduct passive scanning,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1253/
+T1250,Determine domain and IP address space,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1250/
+T1249,Conduct social engineering,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1249/
+T1256,Identify web defensive services,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1256/
+T1248,Identify job postings and needs/gaps,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1248/
+T1244,Determine secondary level tactical element,,Target Selection,https://attack.mitre.org/techniques/TT1244/
+T1247,Acquire OSINT data sets and information,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1247/
+T1246,Identify supply chains,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1246/
+T1242,Determine operational element,,Target Selection,https://attack.mitre.org/techniques/TT1242/
+T1245,Determine approach/attack vector,,Target Selection,https://attack.mitre.org/techniques/TT1245/
+T1243,Determine highest level tactical element,,Target Selection,https://attack.mitre.org/techniques/TT1243/
+T1241,Determine strategic target,,Target Selection,https://attack.mitre.org/techniques/TT1241/
+T1240,Task requirements,,Priority Definition Direction,https://attack.mitre.org/techniques/TT1240/
+T1239,Receive KITs/KIQs and determine requirements,,Priority Definition Direction,https://attack.mitre.org/techniques/TT1239/
+T1236,"Assess current holdings, needs, and wants",,Priority Definition Planning,https://attack.mitre.org/techniques/TT1236/
+T1238,"Assign KITs, KIQs, and/or intelligence requirements",,Priority Definition Direction,https://attack.mitre.org/techniques/TT1238/
+T1233,Identify analyst level gaps,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1233/
+T1235,Receive operator KITs/KIQs tasking,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1235/
+T1232,Create implementation plan,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1232/
+T1237,"Submit KITs, KIQs, and intelligence requirements",,Priority Definition Direction,https://attack.mitre.org/techniques/TT1237/
+T1234,Generate analyst intelligence requirements,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1234/
+T1231,Create strategic plan,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1231/
+T1228,Assign KITs/KIQs into categories,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1228/
+T1227,Develop KITs/KIQs,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1227/
+T1230,Derive intelligence requirements,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1230/
+T1229,Assess KITs/KIQs benefits,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1229/
+T1226,Conduct cost/benefit analysis,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1226/
+T1225,Identify gap areas,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1225/
+T1222,File and Directory Permissions Modification,"T1222.001,T1222.002",Defense Evasion,https://attack.mitre.org/techniques/TT1222/
+T1220,XSL Script Processing,,Defense Evasion,https://attack.mitre.org/techniques/TT1220/
+T1221,Template Injection,,Defense Evasion,https://attack.mitre.org/techniques/TT1221/
+T1224,Assess leadership areas of interest,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1224/
+T1218,Signed Binary Proxy Execution,"T1218.001,T1218.002,T1218.003,T1218.004,T1218.005,T1218.007,T1218.008,T1218.009,T1218.010,T1218.011",Defense Evasion,https://attack.mitre.org/techniques/TT1218/
+T1219,Remote Access Software,,Command And Control,https://attack.mitre.org/techniques/TT1219/
+T1217,Browser Bookmark Discovery,,Discovery,https://attack.mitre.org/techniques/TT1217/
+T1216,Signed Script Proxy Execution,T1216.001,Defense Evasion,https://attack.mitre.org/techniques/TT1216/
+T1213,Data from Information Repositories,"T1213.001,T1213.002",Collection,https://attack.mitre.org/techniques/TT1213/
+T1211,Exploitation for Defense Evasion,,Defense Evasion,https://attack.mitre.org/techniques/TT1211/
+T1212,Exploitation for Credential Access,,Credential Access,https://attack.mitre.org/techniques/TT1212/
+T1210,Exploitation of Remote Services,,Lateral Movement,https://attack.mitre.org/techniques/TT1210/
+T1207,Rogue Domain Controller,,Defense Evasion,https://attack.mitre.org/techniques/TT1207/
+T1205,Traffic Signaling,T1205.001,"Defense Evasion,                                                    Persistence,                                                    Command And Control",https://attack.mitre.org/techniques/TT1205/
+T1204,User Execution,"T1204.001,T1204.002",Execution,https://attack.mitre.org/techniques/TT1204/
+T1202,Indirect Command Execution,,Defense Evasion,https://attack.mitre.org/techniques/TT1202/
+T1201,Password Policy Discovery,,Discovery,https://attack.mitre.org/techniques/TT1201/
+T1203,Exploitation for Client Execution,,Execution,https://attack.mitre.org/techniques/TT1203/
+T1218.001,Signed Binary Proxy Execution:?Compiled HTML File,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.001/
+T1199,Trusted Relationship,,Initial Access,https://attack.mitre.org/techniques/TT1199/
+T1200,Hardware Additions,,Initial Access,https://attack.mitre.org/techniques/TT1200/
+T1197,BITS Jobs,,"Defense Evasion,                                                    Persistence",https://attack.mitre.org/techniques/TT1197/
+T1552.002,Unsecured Credentials:?Credentials in Registry,T1552,Credential Access,https://attack.mitre.org/techniques/TT1552.002/
+T1195,Supply Chain Compromise,"T1195.001,T1195.002,T1195.003,CAPEC-437,,CAPEC-438,,CAPEC-439",Initial Access,https://attack.mitre.org/techniques/TT1195/
+T1547.006,Boot or Logon Autostart Execution:?Kernel Modules and Extensions,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.006/
+T1558.003,Steal or Forge Kerberos Tickets:?Kerberoasting,T1558,Credential Access,https://attack.mitre.org/techniques/TT1558.003/
+T1547.003,Boot or Logon Autostart Execution:?Time Providers,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.003/
+T1548.003,Abuse Elevation Control Mechanism:?Sudo and Sudo Caching,T1548,"Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548.003/
+T1189,Drive-by Compromise,,Initial Access,https://attack.mitre.org/techniques/TT1189/
+T1190,Exploit Public-Facing Application,,Initial Access,https://attack.mitre.org/techniques/TT1190/
+T1187,Forced Authentication,,Credential Access,https://attack.mitre.org/techniques/TT1187/
+T1185,Man in the Browser,,Collection,https://attack.mitre.org/techniques/TT1185/
+T1218.002,Signed Binary Proxy Execution:?Control Panel,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.002/
+T1553.003,Subvert Trust Controls:?SIP and Trust Provider Hijacking,T1553,Defense Evasion,https://attack.mitre.org/techniques/TT1553.003/
+T1218.003,Signed Binary Proxy Execution:?CMSTP,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.003/
+T1566.002,Phishing:?Spearphishing Link,"T1566,CAPEC-163",Initial Access,https://attack.mitre.org/techniques/TT1566.002/
+T1566.001,Phishing:?Spearphishing Attachment,"T1566,CAPEC-163",Initial Access,https://attack.mitre.org/techniques/TT1566.001/
+T1090.003,Proxy:?Multi-hop Proxy,T1090,Command And Control,https://attack.mitre.org/techniques/TT1090.003/
+T1566.003,Phishing:?Spearphishing via Service,"T1566,CAPEC-163",Initial Access,https://attack.mitre.org/techniques/TT1566.003/
+T1176,Browser Extensions,,Persistence,https://attack.mitre.org/techniques/TT1176/
+T1563.001,Remote Service Session Hijacking: SSH Hijacking,T1563,Lateral Movement,https://attack.mitre.org/techniques/TT1563.001/
+T1055.013,Process Injection: Process Doppelg?nging,T1055,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1055.013/
+T1546.012,Event Triggered Execution: Image File Execution Options Injection,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.012/
+T1546.009,Event Triggered Execution: AppCert DLLs,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.009/
+T1055.011,Process Injection: Extra Window Memory Injection,T1055,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1055.011/
+T1546.002,Event Triggered Execution: Screensaver,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.002/
+T1056.004,Input Capture: Credential API Hooking,T1056,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1056.004/
+T1134.005,Access Token Manipulation: SID-History Injection,T1134,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1134.005/
+T1547.008,Boot or Logon Autostart Execution: LSASS Driver,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.008/
+T1090.004,Proxy: Domain Fronting,T1090,Command And Control,https://attack.mitre.org/techniques/TT1090.004/
+T1556.002,Modify Authentication Process: Password Filter DLL,T1556,"Credential Access,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1556.002/
+T1559.002,Inter-Process Communication: Dynamic Data Exchange,T1559,Execution,https://attack.mitre.org/techniques/TT1559.002/
+T1557.001,Man-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay,T1557,"Credential Access,                                                    Collection",https://attack.mitre.org/techniques/TT1557.001/
+T1218.005,Man-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.005/
+T1555.002,Credentials from Password Stores: Securityd Memory,T1555,Credential Access,https://attack.mitre.org/techniques/TT1555.002/
+T1548.001,Abuse Elevation Control Mechanism: Setuid and Setgid,T1548,"Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548.001/
+T1037.004,Boot or Logon Initialization Scripts: Rc.common,T1037,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1037.004/
+T1037.005,Boot or Logon Initialization Scripts: Startup Items,T1037,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1037.005/
+T1547.007,Boot or Logon Autostart Execution: Re-opened Applications,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.007/
+T1547.011,Boot or Logon Autostart Execution: Plist Modification,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.011/
+T1543.001,Create or Modify System Process: Launch Agent,T1543,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543.001/
+T1543.004,Create or Modify System Process: Launch Daemon,T1543,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543.004/
+T1546.006,Event Triggered Execution: LC_LOAD_DYLIB Addition,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.006/
+T1564.001,Hide Artifacts: Hidden Files and Directories,T1564,Defense Evasion,https://attack.mitre.org/techniques/TT1564.001/
+T1574.004,Hijack Execution Flow: Dylib Hijacking,"T1574,CAPEC-CAPEC","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.004/
+T1546.004,Event Triggered Execution: .bash_profile and .bashrc,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.004/
+T1546.005,Event Triggered Execution: Trap,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.005/
+T1059.002,Command and Scripting Interpreter: AppleScript,T1059,Execution,https://attack.mitre.org/techniques/TT1059.002/
+T1569.001,System Services: Launchctl,T1569,Execution,https://attack.mitre.org/techniques/TT1569.001/
+T1140,Deobfuscate/Decode Files or Information,,Defense Evasion,https://attack.mitre.org/techniques/TT1140/
+T1036.006,,"T1036,CAPEC-649",Defense Evasion,https://attack.mitre.org/techniques/TT1036.006/
+T1070.003,,T1070,Defense Evasion,https://attack.mitre.org/techniques/TT1070.003/
+T1564.002,,T1564,Defense Evasion,https://attack.mitre.org/techniques/TT1564.002/
+T1137,Office Application Startup,"T1137.001,T1137.002,T1137.003,T1137.004,T1137.005,T1137.006",Persistence,https://attack.mitre.org/techniques/TT1137/
+T1562.003,,"T1562,CAPEC-13",Defense Evasion,https://attack.mitre.org/techniques/TT1562.003/
+T1552.004,,T1552,Credential Access,https://attack.mitre.org/techniques/TT1552.004/
+T1136,Create Account,"T1136.001,T1136.002,T1136.003",Persistence,https://attack.mitre.org/techniques/TT1136/
+T1132,Data Encoding,"T1132.001,T1132.002",Command And Control,https://attack.mitre.org/techniques/TT1132/
+T1134,Access Token Manipulation,"T1134.001,T1134.002,T1134.003,T1134.004,T1134.005,CAPEC-633","Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1134/
+T1564.003,,T1564,Defense Evasion,https://attack.mitre.org/techniques/TT1564.003/
+T1056.002,,"T1056,CAPEC-659","Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1056.002/
+T1133,External Remote Services,CAPEC-555,"Persistence,                                                    Initial Access",https://attack.mitre.org/techniques/TT1133/
+T1553.001,,T1553,Defense Evasion,https://attack.mitre.org/techniques/TT1553.001/
+T1135,Network Share Discovery,CAPEC-643,Discovery,https://attack.mitre.org/techniques/TT1135/
+T1555.001,,T1555,Credential Access,https://attack.mitre.org/techniques/TT1555.001/
+T1127,Trusted Developer Utilities Proxy Execution,T1127.001,Defense Evasion,https://attack.mitre.org/techniques/TT1127/
+T1129,Shared Modules,,Execution,https://attack.mitre.org/techniques/TT1129/
+T1546.011,,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.011/
+T1552.003,,T1552,Credential Access,https://attack.mitre.org/techniques/TT1552.003/
+T1125,Video Capture,CAPEC-634,Collection,https://attack.mitre.org/techniques/TT1125/
+T1124,System Time Discovery,CAPEC-295,Discovery,https://attack.mitre.org/techniques/TT1124/
+T1123,Audio Capture,CAPEC-634,Collection,https://attack.mitre.org/techniques/TT1123/
+T1119,Automated Collection,,Collection,https://attack.mitre.org/techniques/TT1119/
+T1120,Peripheral Device Discovery,CAPEC-646,Discovery,https://attack.mitre.org/techniques/TT1120/
+T1115,Clipboard Data,CAPEC-637,Collection,https://attack.mitre.org/techniques/TT1115/
+T1114,Email Collection,"T1114.001,T1114.002,T1114.003",Collection,https://attack.mitre.org/techniques/TT1114/
+T1546.007,Event Triggered Execution: Netsh Helper DLL,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.007/
+T1547.002,Boot or Logon Autostart Execution: Authentication Package,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.002/
+T1111,Two-Factor Authentication Interception,,Credential Access,https://attack.mitre.org/techniques/TT1111/
+T1113,Screen Capture,CAPEC-648,Collection,https://attack.mitre.org/techniques/TT1113/
+T1553.004,Subvert Trust Controls: Install Root Certificate,"T1553,CAPEC-479",Defense Evasion,https://attack.mitre.org/techniques/TT1553.004/
+T1112,Modify Registry,CAPEC-203,Defense Evasion,https://attack.mitre.org/techniques/TT1112/
+T1110,Brute Force,"T1110.001,T1110.002,T1110.003,T1110.004,CAPEC-49",Credential Access,https://attack.mitre.org/techniques/TT1110/
+T1070.005,Indicator Removal on Host: Network Share Connection Removal,T1070,Defense Evasion,https://attack.mitre.org/techniques/TT1070.005/
+T1546.015,Event Triggered Execution: Component Object Model Hijacking,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.015/
+T1218.009,Signed Binary Proxy Execution: Regsvcs/Regasm,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.009/
+T1104,Multi-Stage Channels,,Command And Control,https://attack.mitre.org/techniques/TT1104/
+T1218.004,Signed Binary Proxy Execution: InstallUtil,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.004/
+T1218.010,Signed Binary Proxy Execution: Regsvr32,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.010/
+T1106,Native API,,Execution,https://attack.mitre.org/techniques/TT1106/
+T1553.002,Subvert Trust Controls: Code Signing,T1553,Defense Evasion,https://attack.mitre.org/techniques/TT1553.002/
+T1102,Web Service,"T1102.001,T1102.002,T1102.003",Command And Control,https://attack.mitre.org/techniques/TT1102/
+T1105,Ingress Tool Transfer,,Command And Control,https://attack.mitre.org/techniques/TT1105/
+T1542.002,Pre-OS Boot: Component Firmware,T1542,"Persistence,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1542.002/
+T1098,Account Manipulation,"T1098.001,T1098.002,T1098.003,T1098.004",Persistence,https://attack.mitre.org/techniques/TT1098/
+T1095,Non-Application Layer Protocol,,Command And Control,https://attack.mitre.org/techniques/TT1095/
+T1092,Communication Through Removable Media,,Command And Control,https://attack.mitre.org/techniques/TT1092/
+T1091,Replication Through Removable Media,,"Lateral Movement,                                                    Initial Access",https://attack.mitre.org/techniques/TT1091/
+T1090,Proxy,"T1090.001,T1090.002,T1090.003,T1090.004",Command And Control,https://attack.mitre.org/techniques/TT1090/
+T1070.004,Indicator Removal on Host: File Deletion,T1070,Defense Evasion,https://attack.mitre.org/techniques/TT1070.004/
+T1546.010,Event Triggered Execution: AppInit DLLs,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.010/
+T1547.005,Boot or Logon Autostart Execution: Security Support Provider,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.005/
+T1087,Account Discovery,"T1087.001,T1087.002,T1087.003,T1087.004",Discovery,https://attack.mitre.org/techniques/TT1087/
+T1564.004,Hide Artifacts: NTFS File Attributes,T1564,Defense Evasion,https://attack.mitre.org/techniques/TT1564.004/
+T1070.006,Indicator Removal on Host: Timestomp,T1070,Defense Evasion,https://attack.mitre.org/techniques/TT1070.006/
+T1505.003,Server Software Component: Web Shell,T1505,Persistence,https://attack.mitre.org/techniques/TT1505.003/
+T1550.003,Use Alternate Authentication Material: Pass the Ticket,"T1550,CAPEC-645","Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550.003/
+T1080,Taint Shared Content,CAPEC-562,Lateral Movement,https://attack.mitre.org/techniques/TT1080/
+T1055.012,Process Injection: Process Hollowing,T1055,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1055.012/
+T1083,File and Directory Discovery,,Discovery,https://attack.mitre.org/techniques/TT1083/
+T1082,System Information Discovery,CAPEC-312,Discovery,https://attack.mitre.org/techniques/TT1082/
+T1562.001,Impair Defenses: Disable or Modify Tools,"T1562,CAPEC-578",Defense Evasion,https://attack.mitre.org/techniques/TT1562.001/
+T1548.002,Abuse Elevation Control Mechanism: Bypass User Access Control,T1548,"Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548.002/
+T1059,Command and Scripting Interpreter,"T1059.001,T1059.002,T1059.003,T1059.004,T1059.005,T1059.006,T1059.007",Execution,https://attack.mitre.org/techniques/TT1059/
+T1056,Input Capture,"T1056.001,T1056.002,T1056.003,T1056.004,CAPEC-569","Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1056/
+T1218.011,Signed Binary Proxy Execution: Rundll32,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.011/
+T1546.003,Event Triggered Execution: Windows Management Instrumentation Event Subscription,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.003/
+T1059.001,Command and Scripting Interpreter: PowerShell,T1059,Execution,https://attack.mitre.org/techniques/TT1059.001/
+T1055,Process Injection,"T1055.001,T1055.002,T1055.003,T1055.004,T1055.005,T1055.008,T1055.009,T1055.011,T1055.012,T1055.013,T1055.014,CAPEC-640","Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1055/
+T1052,Exfiltration Over Physical Medium,T1052.001,Exfiltration,https://attack.mitre.org/techniques/TT1052/
+T1552.001,Unsecured Credentials: Credentials In Files,"T1552,CAPEC-639",Credential Access,https://attack.mitre.org/techniques/TT1552.001/
+T1048,Exfiltration Over Alternative Protocol,"T1048.001,T1048.002,T1048.003",Exfiltration,https://attack.mitre.org/techniques/TT1048/
+T1057,Process Discovery,CAPEC-573,Discovery,https://attack.mitre.org/techniques/TT1057/
+T1053,Scheduled Task/Job,"T1053.001,T1053.002,T1053.003,T1053.004,T1053.005,CAPEC-557","Execution,                                                    Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1053/
+T1049,System Network Connections Discovery,,Discovery,https://attack.mitre.org/techniques/TT1049/
+T1047,Windows Management Instrumentation,,Execution,https://attack.mitre.org/techniques/TT1047/
+T1046,Network Service Scanning,CAPEC-300,Discovery,https://attack.mitre.org/techniques/TT1046/
+T1041,Exfiltration Over C2 Channel,,Exfiltration,https://attack.mitre.org/techniques/TT1041/
+T1574.011,Hijack Execution Flow: Services Registry Permissions Weakness,"T1574,CAPEC-CAPEC","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.011/
+T1040,Network Sniffing,CAPEC-158,"Credential Access,                                                    Discovery",https://attack.mitre.org/techniques/TT1040/
+T1036,Masquerading,"T1036.001,T1036.002,T1036.003,T1036.004,T1036.005,T1036.006,CAPEC-177",Defense Evasion,https://attack.mitre.org/techniques/TT1036/
+T1039,Data from Network Shared Drive,CAPEC-639,Collection,https://attack.mitre.org/techniques/TT1039/
+T1547.001,Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder,"T1547,CAPEC-270","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.001/
+T1562.006,Impair Defenses: Indicator Blocking,"T1562,CAPEC-571",Defense Evasion,https://attack.mitre.org/techniques/TT1562.006/
+T1037,Boot or Logon Initialization Scripts,"T1037.001,T1037.002,T1037.003,T1037.004,T1037.005,CAPEC-564","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1037/
+T1543.003,Create or Modify System Process: Windows Service,T1543,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543.003/
+T1033,System Owner/User Discovery,CAPEC-577,Discovery,https://attack.mitre.org/techniques/TT1033/
+T1027.002,Obfuscated Files or Information: Software Packing,"T1027,CAPEC-570",Defense Evasion,https://attack.mitre.org/techniques/TT1027.002/
+T1030,Data Transfer Size Limits,,Exfiltration,https://attack.mitre.org/techniques/TT1030/
+T1029,Scheduled Transfer,,Exfiltration,https://attack.mitre.org/techniques/TT1029/
+T1546.001,Event Triggered Execution: Change Default File Association,"T1546,CAPEC-556","Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.001/
+T1574.001,Hijack Execution Flow: DLL Search Order Hijacking,"T1574,CAPEC-471","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.001/
+T1574.010,Hijack Execution Flow: Services File Permissions Weakness,"T1574,CAPEC-CAPEC","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.010/
+T1027,Obfuscated Files or Information,"T1027.001,T1027.002,T1027.003,T1027.004,T1027.005,CAPEC-267",Defense Evasion,https://attack.mitre.org/techniques/TT1027/
+T1025,Data from Removable Media,,Collection,https://attack.mitre.org/techniques/TT1025/
+T1569.002,System Services: Service Execution,T1569,Execution,https://attack.mitre.org/techniques/TT1569.002/
+T1020,Automated Exfiltration,,Exfiltration,https://attack.mitre.org/techniques/TT1020/
+T1021,Remote Services,"T1021.001,T1021.002,T1021.003,T1021.004,T1021.005,T1021.006,CAPEC-555",Lateral Movement,https://attack.mitre.org/techniques/TT1021/
+T1014,Rootkit,CAPEC-552,Defense Evasion,https://attack.mitre.org/techniques/TT1014/
+T1018,Remote System Discovery,CAPEC-292,Discovery,https://attack.mitre.org/techniques/TT1018/
+T1016,System Network Configuration Discovery,CAPEC-309,Discovery,https://attack.mitre.org/techniques/TT1016/
+T1012,Query Registry,CAPEC-647,Discovery,https://attack.mitre.org/techniques/TT1012/
+T1011,Exfiltration Over Other Network Medium,T1011.001,Exfiltration,https://attack.mitre.org/techniques/TT1011/
+T1021.006,Remote Services: Windows Remote Management,T1021,Lateral Movement,https://attack.mitre.org/techniques/TT1021.006/
+T1010,Application Window Discovery,,Discovery,https://attack.mitre.org/techniques/TT1010/
+T1008,Fallback Channels,,Command And Control,https://attack.mitre.org/techniques/TT1008/
+T1007,System Service Discovery,CAPEC-574,Discovery,https://attack.mitre.org/techniques/TT1007/
+T1006,Direct Volume Access,,Defense Evasion,https://attack.mitre.org/techniques/TT1006/
+T1547.009,Boot or Logon Autostart Execution: Shortcut Modification,"T1547,CAPEC-132","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.009/
+T1003,OS Credential Dumping,"T1003.001,T1003.002,T1003.003,T1003.004,T1003.005,T1003.006,T1003.007,T1003.008",Credential Access,https://attack.mitre.org/techniques/TT1003/
+T1547.010,Boot or Logon Autostart Execution: Port Monitors,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.010/
+T1542.001,Pre-OS Boot: System Firmware,"T1542,CAPEC-532","Persistence,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1542.001/
+T1027.001,Obfuscated Files or Information: Binary Padding,"T1027,CAPEC-572",Defense Evasion,https://attack.mitre.org/techniques/TT1027.001/
+T1546.008,Event Triggered Execution: Accessibility Features,"T1546,CAPEC-558","Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.008/
+T1005,Data from Local System,,Collection,https://attack.mitre.org/techniques/TT1005/
+T1547.004,Boot or Logon Autostart Execution: Winlogon Helper DLL,"T1547,CAPEC-579","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.004/

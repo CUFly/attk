@@ -1,0 +1,507 @@
+Id,name,名称,sub_tech,tactic,url
+T1001,Data Obfuscation,数据混淆,"T1001.001,T1001.002,T1001.003",Command And Control,https://attack.mitre.org/techniques/TT1001/
+T1078,Valid Accounts,有效账户,"T1078.001,T1078.002,T1078.003,T1078.004,CAPEC-560","Defense Evasion,                                                    Persistence,                                                    Privilege Escalation,                                                    Initial Access",https://attack.mitre.org/techniques/TT1078/
+T1072,Software Deployment Tools,软件部署工具,,"Execution,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1072/
+T1070,Indicator Removal on Host,主机上的指示器移除,"T1070.001,T1070.002,T1070.003,T1070.004,T1070.005,T1070.006,CAPEC-93",Defense Evasion,https://attack.mitre.org/techniques/TT1070/
+T1074,Data Staged,分段数据,"T1074.001,T1074.002",Collection,https://attack.mitre.org/techniques/TT1074/
+T1068,Exploitation for Privilege Escalation,利用权限提升,,Privilege Escalation,https://attack.mitre.org/techniques/TT1068/
+T1069,Permission Groups Discovery,权限组发现,"T1069.001,T1069.002,T1069.003,CAPEC-576",Discovery,https://attack.mitre.org/techniques/TT1069/
+T1021.001,Remote Services:?Remote Desktop Protocol,远程服务：？远程桌面协议,"T1021,CAPEC-555",Lateral Movement,https://attack.mitre.org/techniques/TT1021.001/
+T1071,Application Layer Protocol,应用层协议,"T1071.001,T1071.002,T1071.003,T1071.004",Command And Control,https://attack.mitre.org/techniques/TT1071/
+T1021.002,Remote Services:?SMB/Windows Admin Shares,远程服务：？SMB/Windows管理员共享,"T1021,CAPEC-561",Lateral Movement,https://attack.mitre.org/techniques/TT1021.002/
+T1542.003,Pre-OS Boot:?Bootkit,操作系统启动前：？装备包,T1542,"Persistence,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1542.003/
+T1518.001,Software Discovery:?Security Software Discovery,软件发现：？安全软件发现,T1518,Discovery,https://attack.mitre.org/techniques/TT1518.001/
+T1550.002,Use Alternate Authentication Material:?Pass the Hash,使用替代认证材料：？传递哈希值,"T1550,CAPEC-644","Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550.002/
+T1027.005,Obfuscated Files or Information:?Indicator Removal from Tools,混淆的文件或信息：？从工具上移除指示器,T1027,Defense Evasion,https://attack.mitre.org/techniques/TT1027.005/
+T1574.002,Hijack Execution Flow:?DLL Side-Loading,劫持执行流程：？DLL侧面加载,"T1574,CAPEC-capec","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.002/
+T1579,Keychain,钥匙链,AUT-11,Credential Access,https://attack.mitre.org/techniques/TT1579/
+T1577,Compromise Application Executable,折衷应用程序可执行文件,,Persistence,https://attack.mitre.org/techniques/TT1577/
+T1575,Native Code,本机代码,,"Defense Evasion,                                                    Execution",https://attack.mitre.org/techniques/TT1575/
+T1578,Modify Cloud Compute Infrastructure,修改云计算基础设施,"T1578.001,T1578.002,T1578.003,T1578.004",Defense Evasion,https://attack.mitre.org/techniques/TT1578/
+T1573,Encrypted Channel,加密通道,"T1573.001,T1573.002",Command And Control,https://attack.mitre.org/techniques/TT1573/
+T1576,Uninstall Malicious Application,卸载恶意应用程序,APP-43,Defense Evasion,https://attack.mitre.org/techniques/TT1576/
+T1572,Protocol Tunneling,隧道协议,,Command And Control,https://attack.mitre.org/techniques/TT1572/
+T1574,Hijack Execution Flow,劫持执行流程,"T1574.001,T1574.002,T1574.004,T1574.005,T1574.006,T1574.007,T1574.008,T1574.009,T1574.010,T1574.011,T1574.012","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574/
+T1570,Lateral Tool Transfer,横向刀具转移,,Lateral Movement,https://attack.mitre.org/techniques/TT1570/
+T1569,System Services,系统服务,"T1569.001,T1569.002",Execution,https://attack.mitre.org/techniques/TT1569/
+T1571,Non-Standard Port,非标准端口,,Command And Control,https://attack.mitre.org/techniques/TT1571/
+T1565,Data Manipulation,数据操作,"T1565.001,T1565.002,T1565.003",Impact,https://attack.mitre.org/techniques/TT1565/
+T1568,Dynamic Resolution,动态分辨率,"T1568.001,T1568.002,T1568.003",Command And Control,https://attack.mitre.org/techniques/TT1568/
+T1564,Hide Artifacts,隐藏文物,"T1564.001,T1564.002,T1564.003,T1564.004,T1564.005,T1564.006",Defense Evasion,https://attack.mitre.org/techniques/TT1564/
+T1566,Phishing,网络钓鱼,"T1566.001,T1566.002,T1566.003,CAPEC-98",Initial Access,https://attack.mitre.org/techniques/TT1566/
+T1567,Exfiltration Over Web Service,基于Web服务的过滤,"T1567.001,T1567.002",Exfiltration,https://attack.mitre.org/techniques/TT1567/
+T1563,Remote Service Session Hijacking,远程服务会话劫持,"T1563.001,T1563.002",Lateral Movement,https://attack.mitre.org/techniques/TT1563/
+T1562,Impair Defenses,削弱防御,"T1562.001,T1562.002,T1562.003,T1562.004,T1562.006,T1562.007",Defense Evasion,https://attack.mitre.org/techniques/TT1562/
+T1558,Steal or Forge Kerberos Tickets,偷或伪造Kerberos票证,"T1558.001,T1558.002,T1558.003",Credential Access,https://attack.mitre.org/techniques/TT1558/
+T1561,Disk Wipe,磁盘擦除,"T1561.001,T1561.002",Impact,https://attack.mitre.org/techniques/TT1561/
+T1559,Inter-Process Communication,进程间通信,"T1559.001,T1559.002",Execution,https://attack.mitre.org/techniques/TT1559/
+T1557,Man-in-the-Middle,中间人,"T1557.001,CAPEC-94","Credential Access,                                                    Collection",https://attack.mitre.org/techniques/TT1557/
+T1560,Archive Collected Data,存档收集的数据,"T1560.001,T1560.002,T1560.003",Collection,https://attack.mitre.org/techniques/TT1560/
+T1556,Modify Authentication Process,修改身份验证过程,"T1556.001,T1556.002,T1556.003","Credential Access,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1556/
+T1554,Compromise Client Software Binary,泄露客户端软件二进制文件,,Persistence,https://attack.mitre.org/techniques/TT1554/
+T1553,Subvert Trust Controls,颠覆信任控制,"T1553.001,T1553.002,T1553.003,T1553.004",Defense Evasion,https://attack.mitre.org/techniques/TT1553/
+T1555,Credentials from Password Stores,来自密码存储的凭据,"T1555.001,T1555.002,T1555.003",Credential Access,https://attack.mitre.org/techniques/TT1555/
+T1552,Unsecured Credentials,不安全的凭据,"T1552.001,T1552.002,T1552.003,T1552.004,T1552.005,T1552.006",Credential Access,https://attack.mitre.org/techniques/TT1552/
+T1550,Use Alternate Authentication Material,使用替代认证材料,"T1550.001,T1550.002,T1550.003,T1550.004","Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550/
+T1547,Boot or Logon Autostart Execution,启动或登录自动启动执行,"T1547.001,T1547.002,T1547.003,T1547.004,T1547.005,T1547.006,T1547.007,T1547.008,T1547.009,T1547.010,T1547.011","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547/
+T1546,Event Triggered Execution,事件触发执行,"T1546.001,T1546.002,T1546.003,T1546.004,T1546.005,T1546.006,T1546.007,T1546.008,T1546.009,T1546.010,T1546.011,T1546.012,T1546.013,T1546.014,T1546.015","Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546/
+T1543,Create or Modify System Process,创建或修改系统进程,"T1543.001,T1543.002,T1543.003,T1543.004","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543/
+T1544,Remote File Copy,远程文件复制,,Command And Control,https://attack.mitre.org/techniques/TT1544/
+T1542,Pre-OS Boot,操作系统启动前,"T1542.001,T1542.002,T1542.003","Defense Evasion,                                                    Persistence",https://attack.mitre.org/techniques/TT1542/
+T1548,Abuse Elevation Control Mechanism,滥用高程控制机制,"T1548.001,T1548.002,T1548.003,T1548.004","Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548/
+T1541,Foreground Persistence,前景持续性,APP-19,"Collection,                                                    Persistence",https://attack.mitre.org/techniques/TT1541/
+T1540,Code Injection,代码注入,,"Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1540/
+T1539,Steal Web Session Cookie,窃取Web会话Cookie,,Credential Access,https://attack.mitre.org/techniques/TT1539/
+T1538,Cloud Service Dashboard,云服务仪表板,,Discovery,https://attack.mitre.org/techniques/TT1538/
+T1537,Transfer Data to Cloud Account,将数据传输到云帐户,,Exfiltration,https://attack.mitre.org/techniques/TT1537/
+T1535,Unused/Unsupported Cloud Regions,未使用/不支持的云区域,,Defense Evasion,https://attack.mitre.org/techniques/TT1535/
+T1533,Data from Local System,来自本地系统的数据,,Collection,https://attack.mitre.org/techniques/TT1533/
+T1534,Internal Spearphishing,内部钓鱼,,Lateral Movement,https://attack.mitre.org/techniques/TT1534/
+T1531,Account Access Removal,删除帐户访问权限,,Impact,https://attack.mitre.org/techniques/TT1531/
+T1529,System Shutdown/Reboot,系统关闭/重新启动,,Impact,https://attack.mitre.org/techniques/TT1529/
+T1528,Steal Application Access Token,窃取应用程序访问令牌,,Credential Access,https://attack.mitre.org/techniques/TT1528/
+T1526,Cloud Service Discovery,云服务发现,,Discovery,https://attack.mitre.org/techniques/TT1526/
+T1530,Data from Cloud Storage Object,来自云存储对象的数据,,Collection,https://attack.mitre.org/techniques/TT1530/
+T1532,Data Encrypted,数据加密,,Exfiltration,https://attack.mitre.org/techniques/TT1532/
+T1521,Standard Cryptographic Protocol,标准密码协议,,Command And Control,https://attack.mitre.org/techniques/TT1521/
+T1525,Implant Container Image,植入容器图像,,Persistence,https://attack.mitre.org/techniques/TT1525/
+T1523,Evade Analysis Environment,规避分析环境,,"Defense Evasion,                                                    Discovery",https://attack.mitre.org/techniques/TT1523/
+T1520,Domain Generation Algorithms,域生成算法,,Command And Control,https://attack.mitre.org/techniques/TT1520/
+T1518,Software Discovery,软件发现,T1518.001,Discovery,https://attack.mitre.org/techniques/TT1518/
+T1517,Access Notifications,访问通知,,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1517/
+T1516,Input Injection,输入注入,,"Defense Evasion,                                                    Impact",https://attack.mitre.org/techniques/TT1516/
+T1578.004,Modify Cloud Compute Infrastructure:?Revert Cloud Instance,修改云计算基础架构：？还原云实例,T1578,Defense Evasion,https://attack.mitre.org/techniques/TT1578.004/
+T1512,Capture Camera,拍摄照相机,APP-19,Collection,https://attack.mitre.org/techniques/TT1512/
+T1513,Screen Capture,屏幕截图,APP-40,Collection,https://attack.mitre.org/techniques/TT1513/
+T1510,Clipboard Modification,剪贴板修改,,Impact,https://attack.mitre.org/techniques/TT1510/
+T1550.001,Use Alternate Authentication Material:?Application Access Token,使用替代验证材料：？应用程序访问令牌,T1550,"Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550.001/
+T1509,Uncommonly Used Port,未使用的端口,,Command And Control,https://attack.mitre.org/techniques/TT1509/
+T1508,Suppress Application Icon,抑制应用程序图标,,Defense Evasion,https://attack.mitre.org/techniques/TT1508/
+T1507,Network Information Discovery,网络信息发现,,Collection,https://attack.mitre.org/techniques/TT1507/
+T1505,Server Software Component,服务器软件组件,"T1505.001,T1505.002,T1505.003",Persistence,https://attack.mitre.org/techniques/TT1505/
+T1552.005,Unsecured Credentials:?Cloud Instance Metadata API,不安全的凭据：？云实例元数据API,T1552,Credential Access,https://attack.mitre.org/techniques/TT1552.005/
+T1546.014,Event Triggered Execution:?Emond,触发执行事件：？埃蒙德,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.014/
+T1548.004,Abuse Elevation Control Mechanism:?Elevated Execution with Prompt,滥用升降控制机构：？使用提示提升执行,T1548,"Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548.004/
+T1498,Network Denial of Service,网络拒绝服务,"T1498.001,T1498.002",Impact,https://attack.mitre.org/techniques/TT1498/
+T1499,Endpoint Denial of Service,端点拒绝服务,"T1499.001,T1499.002,T1499.003,T1499.004,CAPEC-227,,CAPEC-131,,CAPEC-130,,CAPEC-125",Impact,https://attack.mitre.org/techniques/TT1499/
+T1495,Firmware Corruption,固件损坏,,Impact,https://attack.mitre.org/techniques/TT1495/
+T1497,Virtualization/Sandbox Evasion,虚拟化/沙盒规避,"T1497.001,T1497.002,T1497.003","Defense Evasion,                                                    Discovery",https://attack.mitre.org/techniques/TT1497/
+T1496,Resource Hijacking,资源劫持,,Impact,https://attack.mitre.org/techniques/TT1496/
+T1550.004,Use Alternate Authentication Material:?Web Session Cookie,使用替代认证材料：？Web会话Cookie,T1550,"Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550.004/
+T1546.013,Event Triggered Execution:?PowerShell Profile,触发执行事件：？PowerShell配置文件,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.013/
+T1490,Inhibit System Recovery,抑制系统恢复,,Impact,https://attack.mitre.org/techniques/TT1490/
+T1489,Service Stop,服务停止,,Impact,https://attack.mitre.org/techniques/TT1489/
+T1491,Defacement,污损,"T1491.001,T1491.002",Impact,https://attack.mitre.org/techniques/TT1491/
+T1486,Data Encrypted for Impact,加密数据以防影响,,Impact,https://attack.mitre.org/techniques/TT1486/
+T1485,Data Destruction,数据销毁,,Impact,https://attack.mitre.org/techniques/TT1485/
+T1027.004,Obfuscated Files or Information:?Compile After Delivery,混淆的文件或信息：？交付后编译,T1027,Defense Evasion,https://attack.mitre.org/techniques/TT1027.004/
+T1134.004,Access Token Manipulation:?Parent PID Spoofing,访问令牌操作：？父PID欺骗,T1134,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1134.004/
+T1484,Group Policy Modification,集团政策修改,,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1484/
+T1555.003,Credentials from Password Stores:?Credentials from Web Browsers,来自密码存储的凭据：？来自Web浏览器的凭据,T1555,Credential Access,https://attack.mitre.org/techniques/TT1555.003/
+T1565.003,Data Manipulation:?Runtime Data Manipulation,数据操作：？运行时数据操作,T1565,Impact,https://attack.mitre.org/techniques/TT1565.003/
+T1543.002,Create or Modify System Process:?Systemd Service,创建或修改系统进程：？系统服务,T1543,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543.002/
+T1565.002,Data Manipulation:?Transmitted Data Manipulation,数据操作：？传输数据操作,T1565,Impact,https://attack.mitre.org/techniques/TT1565.002/
+T1480,Execution Guardrails,执行护栏,T1480.001,Defense Evasion,https://attack.mitre.org/techniques/TT1480/
+T1478,Install Insecure or Malicious Configuration,安装不安全或恶意配置,STA-7,"Defense Evasion,                                                    Initial Access",https://attack.mitre.org/techniques/TT1478/
+T1482,Domain Trust Discovery,域信任发现,,Discovery,https://attack.mitre.org/techniques/TT1482/
+T1477,Exploit via Radio Interfaces,通过无线电接口进行攻击,,Initial Access,https://attack.mitre.org/techniques/TT1477/
+T1565.001,Data Manipulation:?Stored Data Manipulation,数据操作：？存储数据操作,T1565,Impact,https://attack.mitre.org/techniques/TT1565.001/
+T1481,Web Service,Web服务,,Command And Control,https://attack.mitre.org/techniques/TT1481/
+T1476,Deliver Malicious App via Other Means,通过其他方式传递恶意应用,"AUT-9,,ECO-13,,ECO-21",Initial Access,https://attack.mitre.org/techniques/TT1476/
+T1561.001,Disk Wipe:?Disk Content Wipe,磁盘擦除：？磁盘内容擦除,T1561,Impact,https://attack.mitre.org/techniques/TT1561.001/
+T1561.002,Disk Wipe:?Disk Structure Wipe,磁盘擦除：？磁盘结构擦除,T1561,Impact,https://attack.mitre.org/techniques/TT1561.002/
+T1471,Data Encrypted for Impact,数据加密以防影响,APP-28,Impact,https://attack.mitre.org/techniques/TT1471/
+T1470,Obtain Device Cloud Backups,获取设备云备份,"ECO-0,,ECO-1",Remote Service Effects,https://attack.mitre.org/techniques/TT1470/
+T1469,Remotely Wipe Data Without Authorization,未经授权远程擦除数据,"ECO-5,,EMM-7",Remote Service Effects,https://attack.mitre.org/techniques/TT1469/
+T1474,Supply Chain Compromise,供应链妥协,APP-6,Initial Access,https://attack.mitre.org/techniques/TT1474/
+T1475,Deliver Malicious App via Authorized App Store,通过授权应用商店发布恶意应用,"ECO-4,,ECO-16,,ECO-17,,APP-20,,APP-21,,ECO-22",Initial Access,https://attack.mitre.org/techniques/TT1475/
+T1472,Generate Fraudulent Advertising Revenue,产生虚假广告收入,,Impact,https://attack.mitre.org/techniques/TT1472/
+T1468,Remotely Track Device Without Authorization,未经授权远程跟踪设备,"ECO-5,,EMM-7",Remote Service Effects,https://attack.mitre.org/techniques/TT1468/
+T1467,Rogue Cellular Base Station,流氓蜂窝基站,CEL-7,Network Effects,https://attack.mitre.org/techniques/TT1467/
+T1465,Rogue Wi-Fi Access Points,恶意Wi-Fi接入点,LPN-0,Network Effects,https://attack.mitre.org/techniques/TT1465/
+T1464,Jamming or Denial of Service,干扰或拒绝服务,"CEL-7,,CEL-8,,LPN-5,,GPS-0",Network Effects,https://attack.mitre.org/techniques/TT1464/
+T1463,Manipulate Device Communication,操纵设备通信,APP-1,Network Effects,https://attack.mitre.org/techniques/TT1463/
+T1466,Downgrade to Insecure Protocols,降级为不安全协议,CEL-3,Network Effects,https://attack.mitre.org/techniques/TT1466/
+T1568.002,Dynamic Resolution:?Domain Generation Algorithms,动态分辨率：？域生成算法,T1568,Command And Control,https://attack.mitre.org/techniques/TT1568.002/
+T1461,Lockscreen Bypass,锁定屏旁路,,Initial Access,https://attack.mitre.org/techniques/TT1461/
+T1456,Drive-by Compromise,妥协驱动,CEL-22,Initial Access,https://attack.mitre.org/techniques/TT1456/
+T1458,Exploit via Charging Station or PC,通过充电站或PC进行攻击,PHY-1,Initial Access,https://attack.mitre.org/techniques/TT1458/
+T1451,SIM Card Swap,SIM卡交换,STA-22,Network Effects,https://attack.mitre.org/techniques/TT1451/
+T1450,Exploit SS7 to Track Device Location,利用SS7跟踪设备位置,CEL-38,Network Effects,https://attack.mitre.org/techniques/TT1450/
+T1452,Manipulate App Store Rankings or Ratings,操纵应用商店排名或评级,,Impact,https://attack.mitre.org/techniques/TT1452/
+T1449,Exploit SS7 to Redirect Phone Calls/SMS,利用SS7重定向电话/短信,CEL-37,Network Effects,https://attack.mitre.org/techniques/TT1449/
+T1448,Carrier Billing Fraud,运营商账单欺诈,,Impact,https://attack.mitre.org/techniques/TT1448/
+T1447,Delete Device Data,删除设备数据,,Impact,https://attack.mitre.org/techniques/TT1447/
+T1446,Device Lockout,设备锁定,APP-28,"Impact,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1446/
+T1444,Masquerade as Legitimate Application,冒充合法申请,"APP-31,,APP-14","Initial Access,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1444/
+T1439,Eavesdrop on Insecure Network Communication,不安全网络通信窃听,"APP-0,,APP-1",Network Effects,https://attack.mitre.org/techniques/TT1439/
+T1438,Alternate Network Mediums,备用网络介质,APP-30,"Command And Control,                                                    Exfiltration",https://attack.mitre.org/techniques/TT1438/
+T1437,Standard Application Layer Protocol,标准应用层协议,APP-29,"Command And Control,                                                    Exfiltration",https://attack.mitre.org/techniques/TT1437/
+T1435,Access Calendar Entries,访问日历条目,APP-13,Collection,https://attack.mitre.org/techniques/TT1435/
+T1436,Commonly Used Port,常用端口,,"Command And Control,                                                    Exfiltration",https://attack.mitre.org/techniques/TT1436/
+T1433,Access Call Log,访问通话记录,APP-13,Collection,https://attack.mitre.org/techniques/TT1433/
+T1430,Location Tracking,位置跟踪,APP-24,"Collection,                                                    Discovery",https://attack.mitre.org/techniques/TT1430/
+T1432,Access Contact List,访问联系人列表,APP-13,Collection,https://attack.mitre.org/techniques/TT1432/
+T1428,Exploit Enterprise Resources,开发企业资源,APP-32,Lateral Movement,https://attack.mitre.org/techniques/TT1428/
+T1427,Attack PC via USB Connection,通过USB连接攻击PC,PHY-2,Lateral Movement,https://attack.mitre.org/techniques/TT1427/
+T1423,Network Service Scanning,网络服务扫描,,Discovery,https://attack.mitre.org/techniques/TT1423/
+T1422,System Network Configuration Discovery,系统网络配置发现,,Discovery,https://attack.mitre.org/techniques/TT1422/
+T1424,Process Discovery,过程发现,,Discovery,https://attack.mitre.org/techniques/TT1424/
+T1429,Capture Audio,捕获音频,APP-19,Collection,https://attack.mitre.org/techniques/TT1429/
+T1426,System Information Discovery,系统信息发现,,Discovery,https://attack.mitre.org/techniques/TT1426/
+T1421,System Network Connections Discovery,系统网络连接发现,,Discovery,https://attack.mitre.org/techniques/TT1421/
+T1418,Application Discovery,应用程序发现,,"Defense Evasion,                                                    Discovery",https://attack.mitre.org/techniques/TT1418/
+T1420,File and Directory Discovery,文件和目录发现,,Discovery,https://attack.mitre.org/techniques/TT1420/
+T1416,Android Intent Hijacking,Android意图劫持,,Credential Access,https://attack.mitre.org/techniques/TT1416/
+T1417,Input Capture,输入捕获,,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1417/
+T1415,URL Scheme Hijacking,URL方案劫持,AUT-10,Credential Access,https://attack.mitre.org/techniques/TT1415/
+T1414,Capture Clipboard Data,捕获剪贴板数据,APP-35,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1414/
+T1412,Capture SMS Messages,捕获短信,,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1412/
+T1411,Input Prompt,输入提示,APP-31,Credential Access,https://attack.mitre.org/techniques/TT1411/
+T1413,Access Sensitive Data in Device Logs,访问设备日志中的敏感数据,"APP-3,,APP-13","Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1413/
+T1410,Network Traffic Capture or Redirection,网络流量捕获或重定向,,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1410/
+T1409,Access Stored Application Data,访问存储的应用程序数据,AUT-0,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1409/
+T1408,Disguise Root/Jailbreak Indicators,伪装根/越狱指示器,EMM-5,Defense Evasion,https://attack.mitre.org/techniques/TT1408/
+T1407,Download New Code at Runtime,在运行时下载新代码,APP-20,Defense Evasion,https://attack.mitre.org/techniques/TT1407/
+T1406,Obfuscated Files or Information,混淆的文件或信息,APP-21,Defense Evasion,https://attack.mitre.org/techniques/TT1406/
+T1401,Abuse Device Administrator Access to Prevent Removal,滥用设备管理员访问权限以防止删除,APP-22,Persistence,https://attack.mitre.org/techniques/TT1401/
+T1404,Exploit OS Vulnerability,利用操作系统漏洞,APP-26,Privilege Escalation,https://attack.mitre.org/techniques/TT1404/
+T1402,Broadcast Receivers,广播接收机,,"Persistence,                                                    Execution",https://attack.mitre.org/techniques/TT1402/
+T1405,Exploit TEE Vulnerability,利用TEE漏洞,APP-27,"Credential Access,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1405/
+T1400,Modify System Partition,修改系统分区,APP-27,"Defense Evasion,                                                    Persistence,                                                    Impact",https://attack.mitre.org/techniques/TT1400/
+T1403,Modify Cached Executable Code,修改缓存的可执行代码,,Persistence,https://attack.mitre.org/techniques/TT1403/
+T1397,Spearphishing for Information,钓鱼式钓鱼获取信息,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1397/
+T1398,Modify OS Kernel or Boot Partition,修改操作系统内核或引导分区,"APP-26,,APP-27","Defense Evasion,                                                    Persistence",https://attack.mitre.org/techniques/TT1398/
+T1399,Modify Trusted Execution Environment,修改可信执行环境,APP-27,"Defense Evasion,                                                    Persistence",https://attack.mitre.org/techniques/TT1399/
+T1396,Obtain booter/stressor subscription,获得启动/压力源订阅,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1396/
+T1394,Distribute malicious software development tools,分发恶意软件开发工具,,Stage Capabilities,https://attack.mitre.org/techniques/TT1394/
+T1393,Test ability to evade automated mobile application security analysis performed by app stores,测试规避应用商店执行的自动移动应用程序安全分析的能力,,Test Capabilities,https://attack.mitre.org/techniques/TT1393/
+T1389,Identify vulnerabilities in third-party software libraries,识别第三方软件库中的漏洞,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1389/
+T1391,Choose pre-compromised mobile app developer account credentials or signing keys,选择预泄露的移动应用程序开发人员帐户凭据或签名密钥,,Persona Development,https://attack.mitre.org/techniques/TT1391/
+T1390,OS-vendor provided communication channels,OS供应商提供的通信通道,,Adversary Opsec,https://attack.mitre.org/techniques/TT1390/
+T1392,Obtain Apple iOS enterprise distribution key pair and certificate,获取Apple iOS企业分发密钥对和证书,,Persona Development,https://attack.mitre.org/techniques/TT1392/
+T1379,Disseminate removable media,传播可移动媒体,,Stage Capabilities,https://attack.mitre.org/techniques/TT1379/
+T1364,Friend/Follow/Connect to targets of interest,朋友/关注/联系感兴趣的目标,,Stage Capabilities,https://attack.mitre.org/techniques/TT1364/
+T1365,Hardware or software supply chain implant,硬件或软件供应链植入,,Stage Capabilities,https://attack.mitre.org/techniques/TT1365/
+T1363,Port redirector,端口重定向器,,Stage Capabilities,https://attack.mitre.org/techniques/TT1363/
+T1361,Test signature detection for file upload/email filters,测试文件上传/电子邮件过滤器的签名检测,,Test Capabilities,https://attack.mitre.org/techniques/TT1361/
+T1362,"Upload, install, and configure software/tools",上载、安装和配置软件/工具,,Stage Capabilities,https://attack.mitre.org/techniques/TT1362/
+T1358,Review logs and residual traces,查看日志和残余痕迹,,Test Capabilities,https://attack.mitre.org/techniques/TT1358/
+T1359,Test malware to evade detection,测试恶意软件以逃避检测,,Test Capabilities,https://attack.mitre.org/techniques/TT1359/
+T1360,Test physical access,测试物理访问,,Test Capabilities,https://attack.mitre.org/techniques/TT1360/
+T1357,Test malware in various execution environments,在各种执行环境中测试恶意软件,,Test Capabilities,https://attack.mitre.org/techniques/TT1357/
+T1354,Compromise 3rd party or closed-source vulnerability/exploit information,危害第三方或封闭源漏洞/利用信息,,Build Capabilities,https://attack.mitre.org/techniques/TT1354/
+T1353,Post compromise tool development,折衷后工具开发,,Build Capabilities,https://attack.mitre.org/techniques/TT1353/
+T1352,C2 protocol development,C2协议开发,,Build Capabilities,https://attack.mitre.org/techniques/TT1352/
+T1356,Test callback functionality,测试回调功能,,Test Capabilities,https://attack.mitre.org/techniques/TT1356/
+T1355,Create infected removable media,创建受感染的可移动媒体,,Build Capabilities,https://attack.mitre.org/techniques/TT1355/
+T1351,Remote access tool development,远程访问工具开发,,Build Capabilities,https://attack.mitre.org/techniques/TT1351/
+T1346,Obtain/re-use payloads,获取/重复使用有效载荷,,Build Capabilities,https://attack.mitre.org/techniques/TT1346/
+T1347,Build and configure delivery systems,构建和配置交付系统,,Build Capabilities,https://attack.mitre.org/techniques/TT1347/
+T1348,Identify resources required to build capabilities,确定构建能力所需的资源,,Build Capabilities,https://attack.mitre.org/techniques/TT1348/
+T1349,Build or acquire exploits,建立或获取利用,,Build Capabilities,https://attack.mitre.org/techniques/TT1349/
+T1350,Discover new exploits and monitor exploit-provider forums,发现新的漏洞攻击并监视漏洞提供程序论坛,,Build Capabilities,https://attack.mitre.org/techniques/TT1350/
+T1343,Choose pre-compromised persona and affiliated accounts,选择预先受损的角色和关联帐户,,Persona Development,https://attack.mitre.org/techniques/TT1343/
+T1345,Create custom payloads,创建自定义有效载荷,,Build Capabilities,https://attack.mitre.org/techniques/TT1345/
+T1342,Develop social network persona digital footprint,发展社交网络人物数字足迹,,Persona Development,https://attack.mitre.org/techniques/TT1342/
+T1344,Friend/Follow/Connect to targets of interest,朋友/关注/联系感兴趣的目标,,Persona Development,https://attack.mitre.org/techniques/TT1344/
+T1341,Build social network persona,构建社交网络人物,,Persona Development,https://attack.mitre.org/techniques/TT1341/
+T1340,Shadow DNS,阴影DNS,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1340/
+T1339,Create backup infrastructure,创建备份基础架构,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1339/
+T1337,SSL certificate acquisition for domain,域的SSL证书获取,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1337/
+T1338,SSL certificate acquisition for trust breaking,信任破坏的SSL证书获取,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1338/
+T1335,Procure required equipment and software,采购所需设备和软件,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1335/
+T1331,Obfuscate infrastructure,混淆基础设施,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1331/
+T1333,Dynamic DNS,动态DNS,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1333/
+T1332,Acquire or compromise 3rd party signing certificates,获取或泄露第三方签名证书,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1332/
+T1330,Acquire and/or use 3rd party software services,获取和/或使用第三方软件服务,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1330/
+T1334,Compromise 3rd party infrastructure to support delivery,妥协第三方基础设施，以支持交付,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1334/
+T1336,"Install and configure hardware, network, and systems",安装和配置硬件、网络和系统,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1336/
+T1328,Buy domain name,购买域名,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1328/
+T1329,Acquire and/or use 3rd party infrastructure services,获取和/或使用第三方基础设施服务,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1329/
+T1321,"Common, high volume protocols and software",通用、高容量协议和软件,,Adversary Opsec,https://attack.mitre.org/techniques/TT1321/
+T1326,Domain registration hijacking,域名注册劫持,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1326/
+T1327,Use multiple DNS infrastructures,使用多个DNS基础结构,,Establish & Maintain Infrastructure,https://attack.mitre.org/techniques/TT1327/
+T1322,Misattributable credentials,错误的凭证,,Adversary Opsec,https://attack.mitre.org/techniques/TT1322/
+T1319,Obfuscate or encrypt code,混淆或加密代码,,Adversary Opsec,https://attack.mitre.org/techniques/TT1319/
+T1320,Data Hiding,数据隐藏,,Adversary Opsec,https://attack.mitre.org/techniques/TT1320/
+T1318,Obfuscate operational infrastructure,混淆操作基础设施,,Adversary Opsec,https://attack.mitre.org/techniques/TT1318/
+T1316,Non-traditional or less attributable payment options,非传统或较少归属的付款选择,,Adversary Opsec,https://attack.mitre.org/techniques/TT1316/
+T1317,Secure and protect infrastructure,保护和保护基础设施,,Adversary Opsec,https://attack.mitre.org/techniques/TT1317/
+T1313,Obfuscation or cryptography,混淆或加密,,Adversary Opsec,https://attack.mitre.org/techniques/TT1313/
+T1315,Network-based hiding techniques,基于网络的隐藏技术,,Adversary Opsec,https://attack.mitre.org/techniques/TT1315/
+T1310,Acquire or compromise 3rd party signing certificates,获取或泄露第三方签名证书,,Adversary Opsec,https://attack.mitre.org/techniques/TT1310/
+T1312,Compromise 3rd party infrastructure to support delivery,妥协第三方基础设施以支持交付,,Adversary Opsec,https://attack.mitre.org/techniques/TT1312/
+T1311,Dynamic DNS,动态DNS,,Adversary Opsec,https://attack.mitre.org/techniques/TT1311/
+T1314,Host-based hiding techniques,基于主机的隐藏技术,,Adversary Opsec,https://attack.mitre.org/techniques/TT1314/
+T1307,Acquire and/or use 3rd party infrastructure services,获取和/或使用第三方基础设施服务,,Adversary Opsec,https://attack.mitre.org/techniques/TT1307/
+T1306,Anonymity services,匿名服务,,Adversary Opsec,https://attack.mitre.org/techniques/TT1306/
+T1308,Acquire and/or use 3rd party software services,获取和/或使用第三方软件服务,,Adversary Opsec,https://attack.mitre.org/techniques/TT1308/
+T1305,Private whois services,私人whois服务,,Adversary Opsec,https://attack.mitre.org/techniques/TT1305/
+T1309,Obfuscate infrastructure,混淆基础设施,,Adversary Opsec,https://attack.mitre.org/techniques/TT1309/
+T1301,Analyze business processes,分析业务流程,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1301/
+T1304,Proxy/protocol relays,代理/协议继电器,,Adversary Opsec,https://attack.mitre.org/techniques/TT1304/
+T1300,Analyze organizational skillsets and deficiencies,分析组织技能和不足,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1300/
+T1302,Assess security posture of physical locations,评估物理位置的安全态势,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1302/
+T1303,Analyze presence of outsourced capabilities,分析外包能力的存在,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1303/
+T1299,Assess opportunities created by business deals,评估商业交易创造的机会,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1299/
+T1298,Assess vulnerability of 3rd party vendors,评估第三方供应商的脆弱性,,Organizational Weakness Identification,https://attack.mitre.org/techniques/TT1298/
+T1296,Assess targeting options,评估目标选项,,People Weakness Identification,https://attack.mitre.org/techniques/TT1296/
+T1297,Analyze organizational skillsets and deficiencies,分析组织技能和不足,,People Weakness Identification,https://attack.mitre.org/techniques/TT1297/
+T1294,Analyze hardware/software security defensive capabilities,分析硬件/软件安全防御能力,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1294/
+T1295,"Analyze social and business relationships, interests, and affiliations",分析社会和商业关系、兴趣和从属关系,,People Weakness Identification,https://attack.mitre.org/techniques/TT1295/
+T1293,Analyze application security posture,分析应用程序安全态势,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1293/
+T1292,Test signature detection,测试签名检测,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1292/
+T1289,Analyze organizational skillsets and deficiencies,分析组织技能和不足,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1289/
+T1288,Analyze architecture and configuration posture,分析架构和配置姿态,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1288/
+T1287,Analyze data collected,分析收集的数据,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1287/
+T1291,Research relevant vulnerabilities/CVEs,研究相关漏洞/CVE,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1291/
+T1290,Research visibility gap of security vendors,研究安全厂商的可视性差距,,Technical Weakness Identification,https://attack.mitre.org/techniques/TT1290/
+T1286,Dumpster dive,垃圾桶跳水,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1286/
+T1285,Determine centralization of IT management,确定IT管理的集中化,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1285/
+T1284,Determine 3rd party infrastructure services,确定第三方基础设施服务,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1284/
+T1283,Identify business relationships,确定业务关系,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1283/
+T1281,Obtain templates/branding materials,获取模板/品牌材料,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1281/
+T1282,Determine physical locations,确定物理位置,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1282/
+T1279,Conduct social engineering,进行社会工程,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1279/
+T1278,Identify job postings and needs/gaps,确定职位和需求/差距,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1278/
+T1280,Identify business processes/tempo,确定业务流程/节奏,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1280/
+T1277,Acquire OSINT data sets and information,获取OSINT数据集和信息,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1277/
+T1276,Identify supply chains,确定供应链,,Organizational Information Gathering,https://attack.mitre.org/techniques/TT1276/
+T1275,Aggregate individual's digital footprint,个人数字足迹合计,,People Information Gathering,https://attack.mitre.org/techniques/TT1275/
+T1274,Identify sensitive personnel information,识别敏感的人员信息,,People Information Gathering,https://attack.mitre.org/techniques/TT1274/
+T1273,Mine social media,矿山社交媒体,,People Information Gathering,https://attack.mitre.org/techniques/TT1273/
+T1272,Identify business relationships,确定业务关系,,People Information Gathering,https://attack.mitre.org/techniques/TT1272/
+T1271,Identify personnel with an authority/privilege,确定具有权限/特权的人员,,People Information Gathering,https://attack.mitre.org/techniques/TT1271/
+T1270,Identify groups/roles,确定组/角色,,People Information Gathering,https://attack.mitre.org/techniques/TT1270/
+T1267,Identify job postings and needs/gaps,确定工作岗位和需求/差距,,People Information Gathering,https://attack.mitre.org/techniques/TT1267/
+T1269,Identify people of interest,确定感兴趣的人,,People Information Gathering,https://attack.mitre.org/techniques/TT1269/
+T1266,Acquire OSINT data sets and information,获取OSIT数据集和信息,,People Information Gathering,https://attack.mitre.org/techniques/TT1266/
+T1268,Conduct social engineering,进行社会工程,,People Information Gathering,https://attack.mitre.org/techniques/TT1268/
+T1265,Identify supply chains,确定供应链,,People Information Gathering,https://attack.mitre.org/techniques/TT1265/
+T1264,Identify technology usage patterns,识别技术使用模式,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1264/
+T1263,Identify security defensive capabilities,识别安全防御能力,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1263/
+T1262,Enumerate client configurations,枚举客户端配置,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1262/
+T1260,Determine 3rd party infrastructure services,确定第三方基础设施服务,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1260/
+T1257,Mine technical blogs/forums,矿山技术博客/论坛,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1257/
+T1261,"Enumerate externally facing software applications technologies, languages, and dependencies",列举面向外部的软件应用程序技术、语言和依赖关系,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1261/
+T1259,Determine external network trust dependencies,确定外部网络信任依赖项,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1259/
+T1258,Determine firmware version,确定固件版本,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1258/
+T1255,Discover target logon/email address format,发现目标登录/电子邮件地址格式,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1255/
+T1254,Conduct active scanning,进行主动扫描,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1254/
+T1252,Map network topology,映射网络拓扑,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1252/
+T1251,Obtain domain/IP registration information,获取域/IP注册信息,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1251/
+T1253,Conduct passive scanning,进行被动扫描,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1253/
+T1250,Determine domain and IP address space,确定域和IP地址空间,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1250/
+T1249,Conduct social engineering,进行社会工程,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1249/
+T1256,Identify web defensive services,确定web防御服务,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1256/
+T1248,Identify job postings and needs/gaps,确定职位和需求/差距,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1248/
+T1244,Determine secondary level tactical element,确定二级战术要素,,Target Selection,https://attack.mitre.org/techniques/TT1244/
+T1247,Acquire OSINT data sets and information,获取OSINT数据集和信息,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1247/
+T1246,Identify supply chains,确定供应链,,Technical Information Gathering,https://attack.mitre.org/techniques/TT1246/
+T1242,Determine operational element,确定操作要素,,Target Selection,https://attack.mitre.org/techniques/TT1242/
+T1245,Determine approach/attack vector,确定进近/攻击矢量,,Target Selection,https://attack.mitre.org/techniques/TT1245/
+T1243,Determine highest level tactical element,确定最高级别的战术要素,,Target Selection,https://attack.mitre.org/techniques/TT1243/
+T1241,Determine strategic target,确定战略目标,,Target Selection,https://attack.mitre.org/techniques/TT1241/
+T1240,Task requirements,任务要求,,Priority Definition Direction,https://attack.mitre.org/techniques/TT1240/
+T1239,Receive KITs/KIQs and determine requirements,接收套件/KIQ并确定需求,,Priority Definition Direction,https://attack.mitre.org/techniques/TT1239/
+T1236,"Assess current holdings, needs, and wants",评估当前持有量、需求和需求,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1236/
+T1238,"Assign KITs, KIQs, and/or intelligence requirements",分配套件、KIQ和/或情报要求,,Priority Definition Direction,https://attack.mitre.org/techniques/TT1238/
+T1233,Identify analyst level gaps,确定分析师层面的差距,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1233/
+T1235,Receive operator KITs/KIQs tasking,接收操作员工具包/KIQ任务,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1235/
+T1232,Create implementation plan,制定实施计划,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1232/
+T1237,"Submit KITs, KIQs, and intelligence requirements",提交套件、KIQ和情报要求,,Priority Definition Direction,https://attack.mitre.org/techniques/TT1237/
+T1234,Generate analyst intelligence requirements,生成分析师情报需求,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1234/
+T1231,Create strategic plan,制定战略计划,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1231/
+T1228,Assign KITs/KIQs into categories,将套件/KIQ分类,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1228/
+T1227,Develop KITs/KIQs,开发工具包/KIQ,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1227/
+T1230,Derive intelligence requirements,导出情报需求,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1230/
+T1229,Assess KITs/KIQs benefits,评估套件/KIQ效益,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1229/
+T1226,Conduct cost/benefit analysis,进行成本/效益分析,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1226/
+T1225,Identify gap areas,确定差距区域,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1225/
+T1222,File and Directory Permissions Modification,文件和目录权限修改,"T1222.001,T1222.002",Defense Evasion,https://attack.mitre.org/techniques/TT1222/
+T1220,XSL Script Processing,XSL脚本处理,,Defense Evasion,https://attack.mitre.org/techniques/TT1220/
+T1221,Template Injection,模板注入,,Defense Evasion,https://attack.mitre.org/techniques/TT1221/
+T1224,Assess leadership areas of interest,评估感兴趣的领导领域,,Priority Definition Planning,https://attack.mitre.org/techniques/TT1224/
+T1218,Signed Binary Proxy Execution,签名二进制代理执行,"T1218.001,T1218.002,T1218.003,T1218.004,T1218.005,T1218.007,T1218.008,T1218.009,T1218.010,T1218.011",Defense Evasion,https://attack.mitre.org/techniques/TT1218/
+T1219,Remote Access Software,远程访问软件,,Command And Control,https://attack.mitre.org/techniques/TT1219/
+T1217,Browser Bookmark Discovery,浏览器书签发现,,Discovery,https://attack.mitre.org/techniques/TT1217/
+T1216,Signed Script Proxy Execution,签名脚本代理执行,T1216.001,Defense Evasion,https://attack.mitre.org/techniques/TT1216/
+T1213,Data from Information Repositories,信息存储库中的数据,"T1213.001,T1213.002",Collection,https://attack.mitre.org/techniques/TT1213/
+T1211,Exploitation for Defense Evasion,为逃避防卫而剥削,,Defense Evasion,https://attack.mitre.org/techniques/TT1211/
+T1212,Exploitation for Credential Access,利用凭据访问,,Credential Access,https://attack.mitre.org/techniques/TT1212/
+T1210,Exploitation of Remote Services,远程服务的开发,,Lateral Movement,https://attack.mitre.org/techniques/TT1210/
+T1207,Rogue Domain Controller,恶意域控制器,,Defense Evasion,https://attack.mitre.org/techniques/TT1207/
+T1205,Traffic Signaling,交通信号,T1205.001,"Defense Evasion,                                                    Persistence,                                                    Command And Control",https://attack.mitre.org/techniques/TT1205/
+T1204,User Execution,用户执行,"T1204.001,T1204.002",Execution,https://attack.mitre.org/techniques/TT1204/
+T1202,Indirect Command Execution,间接命令执行,,Defense Evasion,https://attack.mitre.org/techniques/TT1202/
+T1201,Password Policy Discovery,密码策略发现,,Discovery,https://attack.mitre.org/techniques/TT1201/
+T1203,Exploitation for Client Execution,客户端执行的利用,,Execution,https://attack.mitre.org/techniques/TT1203/
+T1218.001,Signed Binary Proxy Execution:?Compiled HTML File,签名二进制代理执行：？编译的HTML文件,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.001/
+T1199,Trusted Relationship,信任关系,,Initial Access,https://attack.mitre.org/techniques/TT1199/
+T1200,Hardware Additions,硬件添加,,Initial Access,https://attack.mitre.org/techniques/TT1200/
+T1197,BITS Jobs,BITS作业,,"Defense Evasion,                                                    Persistence",https://attack.mitre.org/techniques/TT1197/
+T1552.002,Unsecured Credentials:?Credentials in Registry,不安全的凭据：？注册表中的凭据,T1552,Credential Access,https://attack.mitre.org/techniques/TT1552.002/
+T1195,Supply Chain Compromise,供应链折衷,"T1195.001,T1195.002,T1195.003,CAPEC-437,,CAPEC-438,,CAPEC-439",Initial Access,https://attack.mitre.org/techniques/TT1195/
+T1547.006,Boot or Logon Autostart Execution:?Kernel Modules and Extensions,启动或登录自动启动执行：？内核模块和扩展,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.006/
+T1558.003,Steal or Forge Kerberos Tickets:?Kerberoasting,偷或伪造Kerberos票证：？煤焦烧成,T1558,Credential Access,https://attack.mitre.org/techniques/TT1558.003/
+T1547.003,Boot or Logon Autostart Execution:?Time Providers,启动或登录自动启动执行：？时间提供者,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.003/
+T1548.003,Abuse Elevation Control Mechanism:?Sudo and Sudo Caching,滥用高程控制机制：？Sudo和Sudo缓存,T1548,"Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548.003/
+T1189,Drive-by Compromise,妥协驱动,,Initial Access,https://attack.mitre.org/techniques/TT1189/
+T1190,Exploit Public-Facing Application,开发面向公众的应用程序,,Initial Access,https://attack.mitre.org/techniques/TT1190/
+T1187,Forced Authentication,强制身份验证,,Credential Access,https://attack.mitre.org/techniques/TT1187/
+T1185,Man in the Browser,浏览器中的人,,Collection,https://attack.mitre.org/techniques/TT1185/
+T1218.002,Signed Binary Proxy Execution:?Control Panel,签名二进制代理执行：？控制面板,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.002/
+T1553.003,Subvert Trust Controls:?SIP and Trust Provider Hijacking,颠覆信任控制：？SIP和信任提供者劫持,T1553,Defense Evasion,https://attack.mitre.org/techniques/TT1553.003/
+T1218.003,Signed Binary Proxy Execution:?CMSTP,签名二进制代理执行：？CMSTP公司,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.003/
+T1566.002,Phishing:?Spearphishing Link,钓鱼：？Spirphishing链接,"T1566,CAPEC-163",Initial Access,https://attack.mitre.org/techniques/TT1566.002/
+T1566.001,Phishing:?Spearphishing Attachment,网络钓鱼：？钓鱼附件,"T1566,CAPEC-163",Initial Access,https://attack.mitre.org/techniques/TT1566.001/
+T1090.003,Proxy:?Multi-hop Proxy,代理：？多跳代理,T1090,Command And Control,https://attack.mitre.org/techniques/TT1090.003/
+T1566.003,Phishing:?Spearphishing via Service,网络钓鱼：？网络钓鱼服务,"T1566,CAPEC-163",Initial Access,https://attack.mitre.org/techniques/TT1566.003/
+T1176,Browser Extensions,扩充套件,,Persistence,https://attack.mitre.org/techniques/TT1176/
+T1563.001,Remote Service Session Hijacking: SSH Hijacking,远程服务会话劫持：SSH劫持,T1563,Lateral Movement,https://attack.mitre.org/techniques/TT1563.001/
+T1055.013,Process Injection: Process Doppelg?nging,过程注入：过程Doppelg？金,T1055,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1055.013/
+T1546.012,Event Triggered Execution: Image File Execution Options Injection,事件触发执行：图像文件执行选项注入,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.012/
+T1546.009,Event Triggered Execution: AppCert DLLs,事件触发的执行：AppCert DLL,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.009/
+T1055.011,Process Injection: Extra Window Memory Injection,进程注入：额外窗口内存注入,T1055,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1055.011/
+T1546.002,Event Triggered Execution: Screensaver,事件触发执行：屏幕保护程序,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.002/
+T1056.004,Input Capture: Credential API Hooking,输入捕获：凭证API挂接,T1056,"Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1056.004/
+T1134.005,Access Token Manipulation: SID-History Injection,访问令牌操作：SID历史注入,T1134,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1134.005/
+T1547.008,Boot or Logon Autostart Execution: LSASS Driver,启动或登录自动启动执行：LSASS驱动程序,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.008/
+T1090.004,Proxy: Domain Fronting,代理：域前处理,T1090,Command And Control,https://attack.mitre.org/techniques/TT1090.004/
+T1556.002,Modify Authentication Process: Password Filter DLL,修改身份验证过程：密码筛选器DLL,T1556,"Credential Access,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1556.002/
+T1559.002,Inter-Process Communication: Dynamic Data Exchange,进程间通信：动态数据交换,T1559,Execution,https://attack.mitre.org/techniques/TT1559.002/
+T1557.001,Man-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay,中间人：LLMNR/NBT-NS中毒和SMB继电器,T1557,"Credential Access,                                                    Collection",https://attack.mitre.org/techniques/TT1557.001/
+T1218.005,Man-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay,中间人：LLMNR/NBT-NS中毒与SMB中继,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.005/
+T1555.002,Credentials from Password Stores: Securityd Memory,来自密码存储的凭据：Securityd内存,T1555,Credential Access,https://attack.mitre.org/techniques/TT1555.002/
+T1548.001,Abuse Elevation Control Mechanism: Setuid and Setgid,滥用升降控制机制：Setuid和Setgid,T1548,"Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548.001/
+T1037.004,Boot or Logon Initialization Scripts: Rc.common,启动或登录初始化脚本：普通钢筋混凝土,T1037,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1037.004/
+T1037.005,Boot or Logon Initialization Scripts: Startup Items,启动或登录初始化脚本：启动项,T1037,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1037.005/
+T1547.007,Boot or Logon Autostart Execution: Re-opened Applications,启动或登录自动启动执行：重新打开的应用程序,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.007/
+T1547.011,Boot or Logon Autostart Execution: Plist Modification,启动或登录自动启动执行：Plist修改,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.011/
+T1543.001,Create or Modify System Process: Launch Agent,创建或修改系统进程：启动代理,T1543,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543.001/
+T1543.004,Create or Modify System Process: Launch Daemon,创建或修改系统进程：启动守护程序,T1543,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543.004/
+T1546.006,Event Triggered Execution: LC_LOAD_DYLIB Addition,事件触发执行：LC_LOAD_DYLIB Addition,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.006/
+T1564.001,Hide Artifacts: Hidden Files and Directories,隐藏工件：隐藏文件和目录,T1564,Defense Evasion,https://attack.mitre.org/techniques/TT1564.001/
+T1574.004,Hijack Execution Flow: Dylib Hijacking,劫持执行流程：Dylib劫持,"T1574,CAPEC-CAPEC","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.004/
+T1546.004,Event Triggered Execution: .bash_profile and .bashrc,事件触发的执行：.bash_profile和.bashrc,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.004/
+T1546.005,Event Triggered Execution: Trap,事件触发执行：陷阱,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.005/
+T1059.002,Command and Scripting Interpreter: AppleScript,命令和脚本解释器：AppleScript,T1059,Execution,https://attack.mitre.org/techniques/TT1059.002/
+T1569.001,System Services: Launchctl,系统服务：Launchctl,T1569,Execution,https://attack.mitre.org/techniques/TT1569.001/
+T1140,Deobfuscate/Decode Files or Information,删除/解码文件或信息,,Defense Evasion,https://attack.mitre.org/techniques/TT1140/
+T1036.006,Masquerading: Space after Filename,伪装： 文件名后的空格,"T1036,CAPEC-649",Defense Evasion,https://attack.mitre.org/techniques/TT1036.006/
+T1070.003,Indicator Removal on Host: Clear Command History,主机上的指示灯删除： 清除命令历史记录,T1070,Defense Evasion,https://attack.mitre.org/techniques/TT1070.003/
+T1564.002,Hide Artifacts: Hidden Users,隐藏工件： 隐藏的用户,T1564,Defense Evasion,https://attack.mitre.org/techniques/TT1564.002/
+T1137,Office Application Startup,Office应用程序启动,"T1137.001,T1137.002,T1137.003,T1137.004,T1137.005,T1137.006",Persistence,https://attack.mitre.org/techniques/TT1137/
+T1562.003,Impair Defenses: HISTCONTROL,防损防御： HISTCONTROL,"T1562,CAPEC-13",Defense Evasion,https://attack.mitre.org/techniques/TT1562.003/
+T1552.004,Unsecured Credentials: Credentials in Registry,不安全的凭据： 注册表中的凭据,T1552,Credential Access,https://attack.mitre.org/techniques/TT1552.004/
+T1136,Create Account,创建帐户,"T1136.001,T1136.002,T1136.003",Persistence,https://attack.mitre.org/techniques/TT1136/
+T1132,Data Encoding,数据编码,"T1132.001,T1132.002",Command And Control,https://attack.mitre.org/techniques/TT1132/
+T1134,Access Token Manipulation,访问令牌操作,"T1134.001,T1134.002,T1134.003,T1134.004,T1134.005,CAPEC-633","Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1134/
+T1564.003,Hide Artifacts: Hidden Window,隐藏文物： 隐藏的窗口,T1564,Defense Evasion,https://attack.mitre.org/techniques/TT1564.003/
+T1056.002,Input Capture: GUI Input Capture,输入捕获： GUI输入捕获,"T1056,CAPEC-659","Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1056.002/
+T1133,External Remote Services,外部远程服务,CAPEC-555,"Persistence,                                                    Initial Access",https://attack.mitre.org/techniques/TT1133/
+T1553.001,Subvert Trust Controls: Gatekeeper Bypass,颠覆信任控制： 关守绕过,T1553,Defense Evasion,https://attack.mitre.org/techniques/TT1553.001/
+T1135,Network Share Discovery,网络共享发现,CAPEC-643,Discovery,https://attack.mitre.org/techniques/TT1135/
+T1555.001,Credentials from Password Stores: Keychain,密码存储中的凭证： 钥匙串,T1555,Credential Access,https://attack.mitre.org/techniques/TT1555.001/
+T1127,Trusted Developer Utilities Proxy Execution,受信任的开发工具代理执行,T1127.001,Defense Evasion,https://attack.mitre.org/techniques/TT1127/
+T1129,Shared Modules,共享模块,,Execution,https://attack.mitre.org/techniques/TT1129/
+T1546.011,Event Triggered Execution: Application Shimming,事件触发的执行： 应用程序调整,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.011/
+T1552.003,Unsecured Credentials: Bash History,不安全的凭据： Bash历史记录,T1552,Credential Access,https://attack.mitre.org/techniques/TT1552.003/
+T1125,Video Capture,视频捕获,CAPEC-634,Collection,https://attack.mitre.org/techniques/TT1125/
+T1124,System Time Discovery,系统时间发现,CAPEC-295,Discovery,https://attack.mitre.org/techniques/TT1124/
+T1123,Audio Capture,音频捕获,CAPEC-634,Collection,https://attack.mitre.org/techniques/TT1123/
+T1119,Automated Collection,自动收集,,Collection,https://attack.mitre.org/techniques/TT1119/
+T1120,Peripheral Device Discovery,外围设备发现,CAPEC-646,Discovery,https://attack.mitre.org/techniques/TT1120/
+T1115,Clipboard Data,剪贴板数据,CAPEC-637,Collection,https://attack.mitre.org/techniques/TT1115/
+T1114,Email Collection,电子邮件收集,"T1114.001,T1114.002,T1114.003",Collection,https://attack.mitre.org/techniques/TT1114/
+T1546.007,Event Triggered Execution: Netsh Helper DLL,事件触发的执行：Netsh Helper DLL,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.007/
+T1547.002,Boot or Logon Autostart Execution: Authentication Package,启动或登录Autostart执行：身份验证包,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.002/
+T1111,Two-Factor Authentication Interception,双因素身份验证拦截,,Credential Access,https://attack.mitre.org/techniques/TT1111/
+T1113,Screen Capture,屏幕截图,CAPEC-648,Collection,https://attack.mitre.org/techniques/TT1113/
+T1553.004,Subvert Trust Controls: Install Root Certificate,颠覆信任控制：安装根证书,"T1553,CAPEC-479",Defense Evasion,https://attack.mitre.org/techniques/TT1553.004/
+T1112,Modify Registry,修改注册表,CAPEC-203,Defense Evasion,https://attack.mitre.org/techniques/TT1112/
+T1110,Brute Force,蛮力,"T1110.001,T1110.002,T1110.003,T1110.004,CAPEC-49",Credential Access,https://attack.mitre.org/techniques/TT1110/
+T1070.005,Indicator Removal on Host: Network Share Connection Removal,主机上的指示器删除：网络共享连接删除,T1070,Defense Evasion,https://attack.mitre.org/techniques/TT1070.005/
+T1546.015,Event Triggered Execution: Component Object Model Hijacking,事件触发执行：组件对象模型劫持,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.015/
+T1218.009,Signed Binary Proxy Execution: Regsvcs/Regasm,签名二进制代理执行：Regsvcs/Regasm,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.009/
+T1104,Multi-Stage Channels,多级通道,,Command And Control,https://attack.mitre.org/techniques/TT1104/
+T1218.004,Signed Binary Proxy Execution: InstallUtil,签名的二进制代理执行：InstallUtil,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.004/
+T1218.010,Signed Binary Proxy Execution: Regsvr32,签名二进制代理执行：Regsvr32,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.010/
+T1106,Native API,本机API,,Execution,https://attack.mitre.org/techniques/TT1106/
+T1553.002,Subvert Trust Controls: Code Signing,Subversit信任控件：代码签名,T1553,Defense Evasion,https://attack.mitre.org/techniques/TT1553.002/
+T1102,Web Service,Web服务,"T1102.001,T1102.002,T1102.003",Command And Control,https://attack.mitre.org/techniques/TT1102/
+T1105,Ingress Tool Transfer,入口刀具转移,,Command And Control,https://attack.mitre.org/techniques/TT1105/
+T1542.002,Pre-OS Boot: Component Firmware,操作系统启动前：组件固件,T1542,"Persistence,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1542.002/
+T1098,Account Manipulation,账户操纵,"T1098.001,T1098.002,T1098.003,T1098.004",Persistence,https://attack.mitre.org/techniques/TT1098/
+T1095,Non-Application Layer Protocol,非应用层协议,,Command And Control,https://attack.mitre.org/techniques/TT1095/
+T1092,Communication Through Removable Media,通过可移动媒体进行通信,,Command And Control,https://attack.mitre.org/techniques/TT1092/
+T1091,Replication Through Removable Media,通过可移动介质复制,,"Lateral Movement,                                                    Initial Access",https://attack.mitre.org/techniques/TT1091/
+T1090,Proxy,代理,"T1090.001,T1090.002,T1090.003,T1090.004",Command And Control,https://attack.mitre.org/techniques/TT1090/
+T1070.004,Indicator Removal on Host: File Deletion,主机上的指示器删除：文件删除,T1070,Defense Evasion,https://attack.mitre.org/techniques/TT1070.004/
+T1546.010,Event Triggered Execution: AppInit DLLs,事件触发的执行：AppInit DLL,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.010/
+T1547.005,Boot or Logon Autostart Execution: Security Support Provider,启动或登录Autostart执行：安全支持提供程序,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.005/
+T1087,Account Discovery,帐户发现,"T1087.001,T1087.002,T1087.003,T1087.004",Discovery,https://attack.mitre.org/techniques/TT1087/
+T1564.004,Hide Artifacts: NTFS File Attributes,隐藏项目：NTFS文件属性,T1564,Defense Evasion,https://attack.mitre.org/techniques/TT1564.004/
+T1070.006,Indicator Removal on Host: Timestomp,删除主机上的指示器：Timestomp,T1070,Defense Evasion,https://attack.mitre.org/techniques/TT1070.006/
+T1505.003,Server Software Component: Web Shell,服务器软件组件：Web Shell,T1505,Persistence,https://attack.mitre.org/techniques/TT1505.003/
+T1550.003,Use Alternate Authentication Material: Pass the Ticket,使用替代认证材料：通过罚单,"T1550,CAPEC-645","Defense Evasion,                                                    Lateral Movement",https://attack.mitre.org/techniques/TT1550.003/
+T1080,Taint Shared Content,污染共享内容,CAPEC-562,Lateral Movement,https://attack.mitre.org/techniques/TT1080/
+T1055.012,Process Injection: Process Hollowing,工艺注射：工艺空心化,T1055,"Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1055.012/
+T1083,File and Directory Discovery,文件和目录发现,,Discovery,https://attack.mitre.org/techniques/TT1083/
+T1082,System Information Discovery,系统信息发现,CAPEC-312,Discovery,https://attack.mitre.org/techniques/TT1082/
+T1562.001,Impair Defenses: Disable or Modify Tools,削弱防御：禁用或修改工具,"T1562,CAPEC-578",Defense Evasion,https://attack.mitre.org/techniques/TT1562.001/
+T1548.002,Abuse Elevation Control Mechanism: Bypass User Access Control,滥用提升控制机制：绕过用户访问控制,T1548,"Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1548.002/
+T1059,Command and Scripting Interpreter,命令和脚本解释器,"T1059.001,T1059.002,T1059.003,T1059.004,T1059.005,T1059.006,T1059.007",Execution,https://attack.mitre.org/techniques/TT1059/
+T1056,Input Capture,输入捕获,"T1056.001,T1056.002,T1056.003,T1056.004,CAPEC-569","Collection,                                                    Credential Access",https://attack.mitre.org/techniques/TT1056/
+T1218.011,Signed Binary Proxy Execution: Rundll32,有符号二进制代理执行：Rundll32,T1218,Defense Evasion,https://attack.mitre.org/techniques/TT1218.011/
+T1546.003,Event Triggered Execution: Windows Management Instrumentation Event Subscription,事件触发的执行：Windows Management Instrumentation事件订阅,T1546,"Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.003/
+T1059.001,Command and Scripting Interpreter: PowerShell,命令和脚本解释器：PowerShell,T1059,Execution,https://attack.mitre.org/techniques/TT1059.001/
+T1055,Process Injection,工艺注入,"T1055.001,T1055.002,T1055.003,T1055.004,T1055.005,T1055.008,T1055.009,T1055.011,T1055.012,T1055.013,T1055.014,CAPEC-640","Defense Evasion,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1055/
+T1052,Exfiltration Over Physical Medium,物理介质上的渗出,T1052.001,Exfiltration,https://attack.mitre.org/techniques/TT1052/
+T1552.001,Unsecured Credentials: Credentials In Files,不安全凭据：文件中的凭据,"T1552,CAPEC-639",Credential Access,https://attack.mitre.org/techniques/TT1552.001/
+T1048,Exfiltration Over Alternative Protocol,替代方案外滤,"T1048.001,T1048.002,T1048.003",Exfiltration,https://attack.mitre.org/techniques/TT1048/
+T1057,Process Discovery,过程发现,CAPEC-573,Discovery,https://attack.mitre.org/techniques/TT1057/
+T1053,Scheduled Task/Job,计划任务/作业,"T1053.001,T1053.002,T1053.003,T1053.004,T1053.005,CAPEC-557","Execution,                                                    Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1053/
+T1049,System Network Connections Discovery,系统网络连接发现,,Discovery,https://attack.mitre.org/techniques/TT1049/
+T1047,Windows Management Instrumentation,Windows管理规范,,Execution,https://attack.mitre.org/techniques/TT1047/
+T1046,Network Service Scanning,网络服务扫描,CAPEC-300,Discovery,https://attack.mitre.org/techniques/TT1046/
+T1041,Exfiltration Over C2 Channel,C2通道外滤,,Exfiltration,https://attack.mitre.org/techniques/TT1041/
+T1574.011,Hijack Execution Flow: Services Registry Permissions Weakness,劫持执行流：服务注册表权限弱点,"T1574,CAPEC-CAPEC","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.011/
+T1040,Network Sniffing,网络嗅探,CAPEC-158,"Credential Access,                                                    Discovery",https://attack.mitre.org/techniques/TT1040/
+T1036,Masquerading,伪装,"T1036.001,T1036.002,T1036.003,T1036.004,T1036.005,T1036.006,CAPEC-177",Defense Evasion,https://attack.mitre.org/techniques/TT1036/
+T1039,Data from Network Shared Drive,来自网络共享驱动器的数据,CAPEC-639,Collection,https://attack.mitre.org/techniques/TT1039/
+T1547.001,Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder,,"T1547,CAPEC-270","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.001/
+T1562.006,Impair Defenses: Indicator Blocking,削弱防御：指示器阻塞,"T1562,CAPEC-571",Defense Evasion,https://attack.mitre.org/techniques/TT1562.006/
+T1037,Boot or Logon Initialization Scripts,,"T1037.001,T1037.002,T1037.003,T1037.004,T1037.005,CAPEC-564","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1037/
+T1543.003,Create or Modify System Process: Windows Service,创建或修改系统进程：Windows服务,T1543,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1543.003/
+T1033,System Owner/User Discovery,系统所有者/用户发现,CAPEC-577,Discovery,https://attack.mitre.org/techniques/TT1033/
+T1027.002,Obfuscated Files or Information: Software Packing,,"T1027,CAPEC-570",Defense Evasion,https://attack.mitre.org/techniques/TT1027.002/
+T1030,Data Transfer Size Limits,数据传输大小限制,,Exfiltration,https://attack.mitre.org/techniques/TT1030/
+T1029,Scheduled Transfer,预定转移,,Exfiltration,https://attack.mitre.org/techniques/TT1029/
+T1546.001,Event Triggered Execution: Change Default File Association,事件触发执行：更改默认文件关联,"T1546,CAPEC-556","Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.001/
+T1574.001,Hijack Execution Flow: DLL Search Order Hijacking,劫持执行流程：DLL搜索顺序劫持,"T1574,CAPEC-471","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.001/
+T1574.010,Hijack Execution Flow: Services File Permissions Weakness,劫持执行流：服务文件权限弱点,"T1574,CAPEC-CAPEC","Persistence,                                                    Privilege Escalation,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1574.010/
+T1027,Obfuscated Files or Information,混淆的文件或信息,"T1027.001,T1027.002,T1027.003,T1027.004,T1027.005,CAPEC-267",Defense Evasion,https://attack.mitre.org/techniques/TT1027/
+T1025,Data from Removable Media,来自可移动媒体的数据,,Collection,https://attack.mitre.org/techniques/TT1025/
+T1569.002,System Services: Service Execution,系统服务：服务执行,T1569,Execution,https://attack.mitre.org/techniques/TT1569.002/
+T1020,Automated Exfiltration,自动渗出,,Exfiltration,https://attack.mitre.org/techniques/TT1020/
+T1021,Remote Services,远程服务,"T1021.001,T1021.002,T1021.003,T1021.004,T1021.005,T1021.006,CAPEC-555",Lateral Movement,https://attack.mitre.org/techniques/TT1021/
+T1014,Rootkit,Rootkit,CAPEC-552,Defense Evasion,https://attack.mitre.org/techniques/TT1014/
+T1018,Remote System Discovery,远程系统发现,CAPEC-292,Discovery,https://attack.mitre.org/techniques/TT1018/
+T1016,System Network Configuration Discovery,系统网络配置发现,CAPEC-309,Discovery,https://attack.mitre.org/techniques/TT1016/
+T1012,Query Registry,查询注册表,CAPEC-647,Discovery,https://attack.mitre.org/techniques/TT1012/
+T1011,Exfiltration Over Other Network Medium,通过其他网络介质过滤,T1011.001,Exfiltration,https://attack.mitre.org/techniques/TT1011/
+T1021.006,Remote Services: Windows Remote Management,远程服务： Windows远程管理,T1021,Lateral Movement,https://attack.mitre.org/techniques/TT1021.006/
+T1010,Application Window Discovery,应用程序窗口发现,,Discovery,https://attack.mitre.org/techniques/TT1010/
+T1008,Fallback Channels,回退通道,,Command And Control,https://attack.mitre.org/techniques/TT1008/
+T1007,System Service Discovery,系统服务发现,CAPEC-574,Discovery,https://attack.mitre.org/techniques/TT1007/
+T1006,Direct Volume Access,直接卷访问,,Defense Evasion,https://attack.mitre.org/techniques/TT1006/
+T1547.009,Boot or Logon Autostart Execution: Shortcut Modification,启动或登录自动启动执行：快捷方式修改,"T1547,CAPEC-132","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.009/
+T1003,OS Credential Dumping,操作系统凭据转储,"T1003.001,T1003.002,T1003.003,T1003.004,T1003.005,T1003.006,T1003.007,T1003.008",Credential Access,https://attack.mitre.org/techniques/TT1003/
+T1547.010,Boot or Logon Autostart Execution: Port Monitors,启动或登录自动启动执行：端口监视器,T1547,"Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.010/
+T1542.001,Pre-OS Boot: System Firmware,预操作系统引导：系统固件,"T1542,CAPEC-532","Persistence,                                                    Defense Evasion",https://attack.mitre.org/techniques/TT1542.001/
+T1027.001,Obfuscated Files or Information: Binary Padding,模糊处理的文件或信息：二进制填充,"T1027,CAPEC-572",Defense Evasion,https://attack.mitre.org/techniques/TT1027.001/
+T1546.008,Event Triggered Execution: Accessibility Features,事件触发执行：辅助功能,"T1546,CAPEC-558","Privilege Escalation,                                                    Persistence",https://attack.mitre.org/techniques/TT1546.008/
+T1005,Data from Local System,来自本地系统的数据,,Collection,https://attack.mitre.org/techniques/TT1005/
+T1547.004,Boot or Logon Autostart Execution: Winlogon Helper DLL,启动或登录自动启动执行：Winlogon Helper DLL,"T1547,CAPEC-579","Persistence,                                                    Privilege Escalation",https://attack.mitre.org/techniques/TT1547.004/
